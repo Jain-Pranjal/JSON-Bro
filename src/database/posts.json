@@ -1,0 +1,462 @@
+[
+  {
+    "id": 1,
+    "title": "Understanding JavaScript Closures",
+    "content": "A closure is the combination of a function and the lexical environment within which that function was declared...",
+    "author": "John Doe",
+    "authorId": 3,
+    "date": "2023-10-01T10:00:00Z",
+    "tags": ["JavaScript", "Programming", "Closures"],
+    "likes": 120,
+    "views": 450,
+    "comments": [
+      {
+        "user": "Jane Smith",
+        "comment": "Great explanation! This really helped me understand closures.",
+        "date": "2023-10-02T12:00:00Z"
+      },
+      {
+        "user": "Bob Johnson",
+        "comment": "I still find closures confusing, but this article made it a bit clearer.",
+        "date": "2023-10-03T14:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "A Guide to CSS Flexbox",
+    "content": "Flexbox is a layout model that allows elements to align and distribute space within a container...",
+    "author": "Alice Brown",
+    "authorId": 7,
+    "date": "2023-09-25T09:00:00Z",
+    "tags": ["CSS", "Web Design", "Flexbox"],
+    "likes": 95,
+    "views": 320,
+    "comments": [
+      {
+        "user": "Charlie Davis",
+        "comment": "Flexbox has made my life so much easier. Thanks for the guide!",
+        "date": "2023-09-26T11:00:00Z"
+      },
+      {
+        "user": "Dana Lee",
+        "comment": "This is a great resource for anyone learning Flexbox.",
+        "date": "2023-09-27T13:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Introduction to React Hooks",
+    "content": "React Hooks are functions that let you use state and other React features without writing a class...",
+    "author": "Emily White",
+    "authorId": 5,
+    "date": "2023-09-20T08:00:00Z",
+    "tags": ["React", "JavaScript", "Web Development"],
+    "likes": 150,
+    "views": 500,
+    "comments": [
+      {
+        "user": "Frank Green",
+        "comment": "Hooks have completely changed the way I write React components.",
+        "date": "2023-09-21T10:00:00Z"
+      },
+      {
+        "user": "Grace Kim",
+        "comment": "This article is a great introduction to Hooks. Thanks!",
+        "date": "2023-09-22T12:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Mastering Python Generators",
+    "content": "Generators are a simple way of creating iterators. They allow you to declare a function that behaves like an iterator...",
+    "author": "Henry Black",
+    "authorId": 9,
+    "date": "2023-09-15T07:00:00Z",
+    "tags": ["Python", "Programming", "Generators"],
+    "likes": 80,
+    "views": 270,
+    "comments": [
+      {
+        "user": "Ivy Brown",
+        "comment": "Generators are so powerful. This article explains them well.",
+        "date": "2023-09-16T09:00:00Z"
+      },
+      {
+        "user": "Jack Wilson",
+        "comment": "I never understood generators until I read this.",
+        "date": "2023-09-17T11:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Getting Started with Docker",
+    "content": "Docker is a set of platform-as-a-service products that use OS-level virtualization to deliver software in packages called containers...",
+    "author": "Karen Scott",
+    "authorId": 2,
+    "date": "2023-09-10T06:00:00Z",
+    "tags": ["Docker", "DevOps", "Containers"],
+    "likes": 110,
+    "views": 400,
+    "comments": [
+      {
+        "user": "Leo Martinez",
+        "comment": "Docker has revolutionized my development workflow. Great article!",
+        "date": "2023-09-11T08:00:00Z"
+      },
+      {
+        "user": "Mia Clark",
+        "comment": "This is a fantastic introduction to Docker. Thanks for sharing!",
+        "date": "2023-09-12T10:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "His mother had always taught him",
+    "content": "His mother had always taught him not to ever think of himself as better than others. He'd tried to live by this motto. He never looked down on those who were less fortunate or who had less money than him. But the stupidity of the group of people he was talking to made him change his mind.",
+    "author": "Unknown",
+    "authorId": 4,
+    "date": "2023-09-05T10:00:00Z",
+    "tags": ["history", "american", "crime"],
+    "likes": 192,
+    "views": 305,
+    "comments": [
+      {
+        "user": "Anonymous",
+        "comment": "This is a thought-provoking piece.",
+        "date": "2023-09-06T12:00:00Z"
+      },
+      {
+        "user": "Another User",
+        "comment": "I can relate this story.",
+        "date": "2023-09-07T14:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Exploring the New Features in ES2021",
+    "content": "ES2021 introduces several new features to JavaScript, including logical assignment operators, numeric separators, and more...",
+    "author": "Michael Brown",
+    "authorId": 6,
+    "date": "2023-08-30T09:00:00Z",
+    "tags": ["JavaScript", "ES2021", "Programming"],
+    "likes": 85,
+    "views": 290,
+    "comments": [
+      {
+        "user": "Sarah Lee",
+        "comment": "Great overview of the new features in ES2021!",
+        "date": "2023-08-31T11:00:00Z"
+      },
+      {
+        "user": "Tom Harris",
+        "comment": "This article helped me understand the new features better.",
+        "date": "2023-09-01T13:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Building a REST API with Node.js",
+    "content": "In this tutorial, we will build a REST API using Node.js and Express. We will cover the basics of setting up a server, creating routes, and handling requests...",
+    "author": "Laura Wilson",
+    "authorId": 8,
+    "date": "2023-08-25T08:00:00Z",
+    "tags": ["Node.js", "REST API", "Backend"],
+    "likes": 130,
+    "views": 410,
+    "comments": [
+      {
+        "user": "James Brown",
+        "comment": "This tutorial was very helpful. Thanks!",
+        "date": "2023-08-26T10:00:00Z"
+      },
+      {
+        "user": "Emily Davis",
+        "comment": "I was able to build my first REST API using this guide.",
+        "date": "2023-08-27T12:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Introduction to Machine Learning",
+    "content": "Machine learning is a branch of artificial intelligence that focuses on building systems that learn from data. In this article, we will cover the basics of machine learning and its applications...",
+    "author": "David Johnson",
+    "authorId": 10,
+    "date": "2023-08-20T07:00:00Z",
+    "tags": ["Machine Learning", "AI", "Data Science"],
+    "likes": 200,
+    "views": 520,
+    "comments": [
+      {
+        "user": "Sophia Martinez",
+        "comment": "Great introduction to machine learning!",
+        "date": "2023-08-21T09:00:00Z"
+      },
+      {
+        "user": "Daniel Lee",
+        "comment": "This article helped me understand the basics of machine learning.",
+        "date": "2023-08-22T11:00:00Z"
+      }
+    ]
+  },
+  {
+  "id": 10,
+  "title": "Advanced CSS Techniques",
+  "content": "In this article, we will explore some advanced CSS techniques that can help you create stunning web designs...",
+  "author": "Emma Wilson",
+  "authorId": 8,
+  "date": "2023-08-15T06:00:00Z",
+  "tags": ["CSS", "Web Design", "Frontend"],
+  "likes": 180,
+  "views": 450,
+  "comments": [
+    {
+      "user": "Olivia Brown",
+      "comment": "These techniques are really useful for my projects.",
+      "date": "2023-08-16T08:00:00Z"
+    },
+    {
+      "user": "Liam Smith",
+      "comment": "Great article! Learned a lot of new tricks.",
+      "date": "2023-08-17T10:00:00Z"
+    }
+  ]
+},
+{
+  "id": 11,
+  "title": "Getting Started with TypeScript",
+  "content": "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. In this article, we will cover the basics of TypeScript and how to get started...",
+  "author": "Michael Brown",
+  "authorId": 6,
+  "date": "2023-08-10T05:00:00Z",
+  "tags": ["TypeScript", "JavaScript", "Programming"],
+  "likes": 220,
+  "views": 600,
+  "comments": [
+    {
+      "user": "Emily Davis",
+      "comment": "TypeScript has made my code so much more maintainable.",
+      "date": "2023-08-11T07:00:00Z"
+    },
+    {
+      "user": "James Wilson",
+      "comment": "This is a great introduction to TypeScript. Thanks!",
+      "date": "2023-08-12T09:00:00Z"
+    }
+  ]
+},
+{
+  "id": 12,
+  "title": "Building RESTful APIs with Node.js",
+  "content": "In this article, we will learn how to build RESTful APIs using Node.js and Express. We will cover the basics of setting up a server and creating endpoints...",
+  "author": "Sophia Martinez",
+  "authorId": 5,
+  "date": "2023-08-05T04:00:00Z",
+  "tags": ["Node.js", "API", "Backend"],
+  "likes": 250,
+  "views": 700,
+  "comments": [
+    {
+      "user": "Daniel Lee",
+      "comment": "This article helped me build my first API.",
+      "date": "2023-08-06T06:00:00Z"
+    },
+    {
+      "user": "Isabella Johnson",
+      "comment": "Great tutorial on building APIs with Node.js.",
+      "date": "2023-08-07T08:00:00Z"
+    }
+  ]
+},
+{
+  "id": 13,
+  "title": "Introduction to Docker",
+  "content": "Docker is a tool designed to make it easier to create, deploy, and run applications by using containers. In this article, we will cover the basics of Docker...",
+  "author": "David Johnson",
+  "authorId": 10,
+  "date": "2023-08-01T03:00:00Z",
+  "tags": ["Docker", "DevOps", "Containers"],
+  "likes": 190,
+  "views": 500,
+  "comments": [
+    {
+      "user": "Sophia Martinez",
+      "comment": "Docker has simplified my deployment process.",
+      "date": "2023-08-02T05:00:00Z"
+    },
+    {
+      "user": "Daniel Lee",
+      "comment": "This is a great introduction to Docker.",
+      "date": "2023-08-03T07:00:00Z"
+    }
+  ]
+},
+{
+  "id": 14,
+  "title": "Understanding GraphQL",
+  "content": "GraphQL is a query language for APIs and a runtime for executing those queries by using a type system you define for your data. In this article, we will cover the basics of GraphQL...",
+  "author": "Emma Wilson",
+  "authorId": 8,
+  "date": "2023-07-25T02:00:00Z",
+  "tags": ["GraphQL", "API", "Backend"],
+  "likes": 210,
+  "views": 550,
+  "comments": [
+    {
+      "user": "Olivia Brown",
+      "comment": "GraphQL has made my API queries so much more efficient.",
+      "date": "2023-07-26T04:00:00Z"
+    },
+    {
+      "user": "Liam Smith",
+      "comment": "Great article on GraphQL basics.",
+      "date": "2023-07-27T06:00:00Z"
+    }
+  ]
+},
+{
+  "id": 15,
+  "title": "Introduction to Kubernetes",
+  "content": "Kubernetes is an open-source system for automating the deployment, scaling, and management of containerized applications. In this article, we will cover the basics of Kubernetes...",
+  "author": "Michael Brown",
+  "authorId": 6,
+  "date": "2023-07-20T01:00:00Z",
+  "tags": ["Kubernetes", "DevOps", "Containers"],
+  "likes": 230,
+  "views": 650,
+  "comments": [
+    {
+      "user": "Emily Davis",
+      "comment": "Kubernetes has made managing my containers so much easier.",
+      "date": "2023-07-21T03:00:00Z"
+    },
+    {
+      "user": "James Wilson",
+      "comment": "This is a great introduction to Kubernetes.",
+      "date": "2023-07-22T05:00:00Z"
+    }
+  ]
+},
+{
+  "id": 16,
+  "title": "Building Single Page Applications with React",
+  "content": "In this article, we will learn how to build single page applications (SPAs) using React. We will cover the basics of setting up a React project and creating components...",
+  "author": "Sophia Martinez",
+  "authorId": 5,
+  "date": "2023-07-15T00:00:00Z",
+  "tags": ["React", "JavaScript", "Frontend"],
+  "likes": 240,
+  "views": 680,
+  "comments": [
+    {
+      "user": "Daniel Lee",
+      "comment": "This article helped me build my first SPA.",
+      "date": "2023-07-16T02:00:00Z"
+    },
+    {
+      "user": "Isabella Johnson",
+      "comment": "Great tutorial on building SPAs with React.",
+      "date": "2023-07-17T04:00:00Z"
+    }
+  ]
+},
+{
+  "id": 17,
+  "title": "Introduction to Cloud Computing",
+  "content": "Cloud computing is the delivery of computing services over the internet. In this article, we will cover the basics of cloud computing and its benefits...",
+  "author": "David Johnson",
+  "authorId": 10,
+  "date": "2023-07-10T23:00:00Z",
+  "tags": ["Cloud Computing", "AWS", "Azure"],
+  "likes": 260,
+  "views": 720,
+  "comments": [
+    {
+      "user": "Sophia Martinez",
+      "comment": "Cloud computing has transformed the way I work.",
+      "date": "2023-07-11T01:00:00Z"
+    },
+    {
+      "user": "Daniel Lee",
+      "comment": "This is a great introduction to cloud computing.",
+      "date": "2023-07-12T03:00:00Z"
+    }
+  ]
+},
+{
+  "id": 18,
+  "title": "Getting Started with Vue.js",
+  "content": "Vue.js is a progressive JavaScript framework for building user interfaces. In this article, we will cover the basics of Vue.js and how to get started...",
+  "author": "Emma Wilson",
+  "authorId": 8,
+  "date": "2023-07-05T22:00:00Z",
+  "tags": ["Vue.js", "JavaScript", "Frontend"],
+  "likes": 170,
+  "views": 430,
+  "comments": [
+    {
+      "user": "Olivia Brown",
+      "comment": "Vue.js has made building UIs so much easier.",
+      "date": "2023-07-06T00:00:00Z"
+    },
+    {
+      "user": "Liam Smith",
+      "comment": "Great article on getting started with Vue.js.",
+      "date": "2023-07-07T02:00:00Z"
+    }
+  ]
+},
+{
+  "id": 19,
+  "title": "Introduction to Cybersecurity",
+  "content": "Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks. In this article, we will cover the basics of cybersecurity...",
+  "author": "Michael Brown",
+  "authorId": 6,
+  "date": "2023-07-01T21:00:00Z",
+  "tags": ["Cybersecurity", "Security", "IT"],
+  "likes": 210,
+  "views": 550,
+  "comments": [
+    {
+      "user": "Emily Davis",
+      "comment": "Cybersecurity is so important in today's world.",
+      "date": "2023-07-02T23:00:00Z"
+    },
+    {
+      "user": "James Wilson",
+      "comment": "This is a great introduction to cybersecurity.",
+      "date": "2023-07-03T01:00:00Z"
+    }
+  ]
+},
+{
+  "id": 20,
+  "title": "Building Mobile Apps with Flutter",
+  "content": "Flutter is an open-source UI software development toolkit created by Google. In this article, we will cover the basics of building mobile apps with Flutter...",
+  "author": "Sophia Martinez",
+  "authorId": 5,
+  "date": "2023-06-25T20:00:00Z",
+  "tags": ["Flutter", "Mobile Development", "Dart"],
+  "likes": 230,
+  "views": 600,
+  "comments": [
+    {
+      "user": "Daniel Lee",
+      "comment": "Flutter has made mobile app development so much easier.",
+      "date": "2023-06-26T22:00:00Z"
+    },
+    {
+      "user": "Isabella Johnson",
+      "comment": "Great tutorial on building mobile apps with Flutter.",
+      "date": "2023-06-27T00:00:00Z"
+    }
+  ]
+}
+]

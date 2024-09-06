@@ -1,0 +1,522 @@
+[
+  {
+    "id": 1,
+    "firstName": "Pranjal",
+    "lastName": "Jain",
+    "email": "pranjaljain@gmail.com",
+    "avatar": "https://randomuser.me/api/portraits/men/75.jpg",
+    "gender": "male",
+    "phoneNumber": "+1 (555) 555-5555",
+    "address": {
+      "street": "649 guru ram dass nagar",
+      "city": "Delhi",
+      "state": "New Delhi",
+      "zip": "110092"
+    },
+    "jobTitle": "Software Engineer",
+    "company": "BVCOE",
+    "interests": ["coding", "music", "travel"],
+    "isActive": true,
+    "registered": "2023-03-10T10:15:30.000Z",
+    "about": "A passionate software engineer with a love for coding and exploring new technologies.",
+    "social": {
+      "facebook": "Pranjal Jain",
+      "twitter": "PranjalJain03",
+      "linkedin": "pranjalll"
+    }
+  },
+  {
+    "id": 2,
+    "firstName": "Aarav",
+    "lastName": "Sharma",
+    "email": "aaravsharma@gmail.com",
+    "avatar": "https://randomuser.me/api/portraits/men/76.jpg",
+    "gender": "male",
+    "phoneNumber": "+1 (555) 123-4567",
+    "address": {
+      "street": "123 MG Road",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "zip": "400001"
+    },
+    "jobTitle": "Data Scientist",
+    "company": "TechCorp",
+    "interests": ["data analysis", "reading", "hiking"],
+    "isActive": false,
+    "registered": "2022-05-15T09:30:00.000Z",
+    "about": "A data scientist who loves to uncover insights from data and enjoys outdoor activities.",
+    "social": {
+      "facebook": "Aarav Sharma",
+      "twitter": "AaravSharma01",
+      "linkedin": "aaravsharma"
+    }
+  },
+  {
+    "id": 3,
+    "firstName": "Isha",
+    "lastName": "Verma",
+    "email": "ishaverma@gmail.com",
+    "avatar": "https://randomuser.me/api/portraits/women/75.jpg",
+    "gender": "female",
+    "phoneNumber": "+1 (555) 987-6543",
+    "address": {
+      "street": "456 Park Avenue",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zip": "560001"
+    },
+    "jobTitle": "Product Manager",
+    "company": "InnovateX",
+    "interests": ["product design", "yoga", "travel"],
+    "isActive": true,
+    "registered": "2021-08-20T11:45:00.000Z",
+    "about": "A product manager with a knack for creating user-centric products and a passion for wellness.",
+    "social": {
+      "facebook": "Isha Verma",
+      "twitter": "IshaVerma02",
+      "linkedin": "ishaverma"
+    }
+  },
+  {
+    "id": 4,
+    "firstName": "Rohan",
+    "lastName": "Patel",
+    "email": "rohanpatel@gmail.com",
+    "avatar": "https://randomuser.me/api/portraits/men/77.jpg",
+    "gender": "male",
+    "phoneNumber": "+1 (555) 246-8102",
+    "address": {
+      "street": "789 Residency Road",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "zip": "380001"
+    },
+    "jobTitle": "UX Designer",
+    "company": "DesignHub",
+    "interests": ["design", "photography", "gaming"],
+    "isActive": false,
+    "registered": "2020-11-25T14:00:00.000Z",
+    "about": "A UX designer who loves creating intuitive designs and enjoys capturing moments through photography.",
+    "social": {
+      "facebook": "Rohan Patel",
+      "twitter": "RohanPatel03",
+      "linkedin": "rohanpatel"
+    }
+  },
+  {
+    "id": 5,
+    "firstName": "Ananya",
+    "lastName": "Singh",
+    "email": "ananyasingh@gmail.com",
+    "avatar": "https://randomuser.me/api/portraits/women/76.jpg",
+    "gender": "female",
+    "phoneNumber": "+1 (555) 369-2580",
+    "address": {
+      "street": "101 Nehru Place",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "zip": "600001"
+    },
+    "jobTitle": "Marketing Specialist",
+    "company": "MarketGurus",
+    "interests": ["marketing", "cooking", "travel"],
+    "isActive": true,
+    "registered": "2019-02-10T08:15:00.000Z",
+    "about": "A marketing specialist with a creative mind and a love for culinary arts and exploring new places.",
+    "social": {
+      "facebook": "Ananya Singh",
+      "twitter": "AnanyaSingh04",
+      "linkedin": "ananyasingh"
+    }
+  },
+  {
+    "id": 6,
+    "firstName": "Vikram",
+    "lastName": "Reddy",
+    "email": "vikramreddy@gmail.com",
+    "avatar": "https://randomuser.me/api/portraits/men/78.jpg",
+    "gender": "male",
+    "phoneNumber": "+1 (555) 741-8529",
+    "address": {
+      "street": "202 Jubilee Hills",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "zip": "500033"
+    },
+    "jobTitle": "DevOps Engineer",
+    "company": "CloudWorks",
+    "interests": ["cloud computing", "music", "sports"],
+    "isActive": false,
+    "registered": "2018-07-05T13:30:00.000Z",
+    "about": "A DevOps engineer with expertise in cloud technologies and a passion for music and sports.",
+    "social": {
+      "facebook": "Vikram Reddy",
+      "twitter": "VikramReddy05",
+      "linkedin": "vikramreddy"
+    }
+  },
+    {
+    "id": 7,
+    "firstName": "Meera",
+    "lastName": "Kapoor",
+    "email": "meerakapoor@gmail.com",
+    "avatar": "https://randomuser.me/api/portraits/women/77.jpg",
+    "gender": "female",
+    "phoneNumber": "+1 (555) 123-9876",
+    "address": {
+      "street": "303 Marine Drive",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "zip": "400002"
+    },
+    "jobTitle": "Graphic Designer",
+    "company": "CreativeWorks",
+    "interests": ["art", "design", "travel"],
+    "isActive": true,
+    "registered": "2021-03-12T10:20:00.000Z",
+    "about": "A creative graphic designer with a passion for art and design.",
+    "social": {
+      "facebook": "Meera Kapoor",
+      "twitter": "MeeraKapoor07",
+      "linkedin": "meerakapoor"
+    }
+  },
+  {
+    "id": 8,
+    "firstName": "Raj",
+    "lastName": "Singh",
+    "email": "rajsingh@gmail.com",
+    "avatar": "https://randomuser.me/api/portraits/men/79.jpg",
+    "gender": "male",
+    "phoneNumber": "+1 (555) 456-7890",
+    "address": {
+      "street": "404 Connaught Place",
+      "city": "Delhi",
+      "state": "New Delhi",
+      "zip": "110001"
+    },
+    "jobTitle": "Project Manager",
+    "company": "BuildTech",
+    "interests": ["management", "reading", "sports"],
+    "isActive": false,
+    "registered": "2020-06-18T14:45:00.000Z",
+    "about": "A project manager with a knack for efficient project execution.",
+    "social": {
+      "facebook": "Raj Singh",
+      "twitter": "RajSingh08",
+      "linkedin": "rajsingh"
+    }
+  },
+  {
+    "id": 9,
+    "firstName": "Sanya",
+    "lastName": "Mehta",
+    "email": "sanyamehta@gmail.com",
+    "avatar": "https://randomuser.me/api/portraits/women/78.jpg",
+    "gender": "female",
+    "phoneNumber": "+1 (555) 789-0123",
+    "address": {
+      "street": "505 Brigade Road",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zip": "560002"
+    },
+    "jobTitle": "HR Manager",
+    "company": "PeopleFirst",
+    "interests": ["human resources", "cooking", "travel"],
+    "isActive": true,
+    "registered": "2019-09-22T08:30:00.000Z",
+    "about": "An HR manager who loves working with people and exploring new cuisines.",
+    "social": {
+      "facebook": "Sanya Mehta",
+      "twitter": "SanyaMehta09",
+      "linkedin": "sanyamehta"
+    }
+  },
+  {
+    "id": 10,
+    "firstName": "Amit",
+    "lastName": "Kumar",
+    "email": "amitkumar@gmail.com",
+    "avatar": "https://randomuser.me/api/portraits/men/80.jpg",
+    "gender": "male",
+    "phoneNumber": "+1 (555) 321-6549",
+    "address": {
+      "street": "606 MG Road",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "zip": "411001"
+    },
+    "jobTitle": "Software Developer",
+    "company": "CodeBase",
+    "interests": ["coding", "gaming", "music"],
+    "isActive": false,
+    "registered": "2018-12-05T11:00:00.000Z",
+    "about": "A software developer with a passion for coding and gaming.",
+    "social": {
+      "facebook": "Amit Kumar",
+      "twitter": "AmitKumar10",
+      "linkedin": "amitkumar"
+    }
+  },
+    {
+    "id": 11,
+    "firstName": "Neha",
+    "lastName": "Gupta",
+    "email": "nehagupta@gmail.com",
+    "avatar": "https://randomuser.me/api/portraits/women/79.jpg",
+    "gender": "female",
+    "phoneNumber": "+1 (555) 654-3210",
+    "address": {
+      "street": "707 Park Street",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "zip": "700001"
+    },
+    "jobTitle": "Content Writer",
+    "company": "WriteRight",
+    "interests": ["writing", "reading", "travel"],
+    "isActive": true,
+    "registered": "2021-01-15T10:00:00.000Z",
+    "about": "A content writer with a flair for storytelling and a love for books.",
+    "social": {
+      "facebook": "Neha Gupta",
+      "twitter": "NehaGupta11",
+      "linkedin": "nehagupta"
+    }
+  },
+  {
+    "id": 12,
+    "firstName": "Karan",
+    "lastName": "Malhotra",
+    "email": "karanmalhotra@gmail.com",
+    "avatar": "https://randomuser.me/api/portraits/men/81.jpg",
+    "gender": "male",
+    "phoneNumber": "+1 (555) 789-6543",
+    "address": {
+      "street": "808 MG Road",
+      "city": "Chandigarh",
+      "state": "Punjab",
+      "zip": "160001"
+    },
+    "jobTitle": "Business Analyst",
+    "company": "BizSolutions",
+    "interests": ["business analysis", "sports", "music"],
+    "isActive": false,
+    "registered": "2020-03-20T09:30:00.000Z",
+    "about": "A business analyst with a keen eye for detail and a passion for sports.",
+    "social": {
+      "facebook": "Karan Malhotra",
+      "twitter": "KaranMalhotra12",
+      "linkedin": "karanmalhotra"
+    }
+  },
+  {
+    "id": 13,
+    "firstName": "Pooja",
+    "lastName": "Rao",
+    "email": "poojarao@gmail.com",
+    "avatar": "https://randomuser.me/api/portraits/women/80.jpg",
+    "gender": "female",
+    "phoneNumber": "+1 (555) 321-9876",
+    "address": {
+      "street": "909 Residency Road",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "zip": "500034"
+    },
+    "jobTitle": "Digital Marketer",
+    "company": "MarketMasters",
+    "interests": ["digital marketing", "travel", "photography"],
+    "isActive": true,
+    "registered": "2019-07-25T08:45:00.000Z",
+    "about": "A digital marketer who loves creating impactful campaigns and exploring new places.",
+    "social": {
+      "facebook": "Pooja Rao",
+      "twitter": "PoojaRao13",
+      "linkedin": "poojarao"
+    }
+  },
+  {
+    "id": 14,
+    "firstName": "Vikas",
+    "lastName": "Singh",
+    "email": "vikassingh@gmail.com",
+    "avatar": "https://randomuser.me/api/portraits/men/82.jpg",
+    "gender": "male",
+    "phoneNumber": "+1 (555) 654-7890",
+    "address": {
+      "street": "1010 Nehru Place",
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "zip": "226001"
+    },
+    "jobTitle": "Network Engineer",
+    "company": "NetSolutions",
+    "interests": ["networking", "gaming", "music"],
+    "isActive": false,
+    "registered": "2018-11-10T12:00:00.000Z",
+    "about": "A network engineer with a passion for technology and gaming.",
+    "social": {
+      "facebook": "Vikas Singh",
+      "twitter": "VikasSingh14",
+      "linkedin": "vikassingh"
+    }
+  },
+  {
+    "id": 15,
+    "firstName": "Ritu",
+    "lastName": "Sharma",
+    "email": "ritusharma@gmail.com",
+    "avatar": "https://randomuser.me/api/portraits/women/81.jpg",
+    "gender": "female",
+    "phoneNumber": "+1 (555) 987-3210",
+    "address": {
+      "street": "1111 Brigade Road",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zip": "560003"
+    },
+    "jobTitle": "Financial Analyst",
+    "company": "FinanceCorp",
+    "interests": ["finance", "reading", "travel"],
+    "isActive": true,
+    "registered": "2017-05-05T11:30:00.000Z",
+    "about": "A financial analyst with a love for numbers and a passion for travel.",
+    "social": {
+      "facebook": "Ritu Sharma",
+      "twitter": "RituSharma15",
+      "linkedin": "ritusharma"
+    }
+  },
+  {
+    "id": 16,
+    "firstName": "Arjun",
+    "lastName": "Nair",
+    "email": "arjunnair@gmail.com",
+    "avatar": "https://randomuser.me/api/portraits/men/83.jpg",
+    "gender": "male",
+    "phoneNumber": "+1 (555) 123-6547",
+    "address": {
+      "street": "1212 MG Road",
+      "city": "Kochi",
+      "state": "Kerala",
+      "zip": "682001"
+    },
+    "jobTitle": "Software Tester",
+    "company": "TestWorks",
+    "interests": ["software testing", "sports", "music"],
+    "isActive": false,
+    "registered": "2016-09-15T10:15:00.000Z",
+    "about": "A software tester with a keen eye for detail and a love for sports.",
+    "social": {
+      "facebook": "Arjun Nair",
+      "twitter": "ArjunNair16",
+      "linkedin": "arjunnair"
+    }
+  },
+  {
+    "id": 17,
+    "firstName": "Sneha",
+    "lastName": "Patel",
+    "email": "snehapatel@gmail.com",
+    "avatar": "https://randomuser.me/api/portraits/women/82.jpg",
+    "gender": "female",
+    "phoneNumber": "+1 (555) 789-3210",
+    "address": {
+      "street": "1313 Residency Road",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "zip": "380002"
+    },
+    "jobTitle": "Operations Manager",
+    "company": "OpsExperts",
+    "interests": ["operations", "reading", "travel"],
+    "isActive": true,
+    "registered": "2015-12-20T09:00:00.000Z",
+    "about": "An operations manager with a knack for efficiency and a love for books.",
+    "social": {
+      "facebook": "Sneha Patel",
+      "twitter": "SnehaPatel17",
+      "linkedin": "snehapatel"
+    }
+  },
+  {
+    "id": 18,
+    "firstName": "Rohan",
+    "lastName": "Desai",
+    "email": "rohdesai@gmail.com",
+    "avatar": "https://randomuser.me/api/portraits/men/84.jpg",
+    "gender": "male",
+    "phoneNumber": "+1 (555) 321-4567",
+    "address": {
+      "street": "1414 Park Avenue",
+      "city": "Surat",
+      "state": "Gujarat",
+      "zip": "395001"
+    },
+    "jobTitle": "Sales Manager",
+    "company": "SalesForce",
+    "interests": ["sales", "sports", "music"],
+    "isActive": false,
+    "registered": "2014-08-25T08:30:00.000Z",
+    "about": "A sales manager with a passion for achieving targets and a love for sports.",
+    "social": {
+      "facebook": "Rohan Desai",
+      "twitter": "RohanDesai18",
+      "linkedin": "rohdesai"
+    }
+  },
+  {
+    "id": 19,
+    "firstName": "Priya",
+    "lastName": "Kumar",
+    "email": "priyakumar@gmail.com",
+    "avatar": "https://randomuser.me/api/portraits/women/83.jpg",
+    "gender": "female",
+    "phoneNumber": "+1 (555) 654-7891",
+    "address": {
+      "street": "1515 Nehru Place",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "zip": "600002"
+    },
+    "jobTitle": "HR Specialist",
+    "company": "PeopleFirst",
+    "interests": ["human resources", "cooking", "travel"],
+    "isActive": true,
+    "registered": "2013-07-10T11:00:00.000Z",
+    "about": "An HR specialist who loves working with people and exploring new cuisines.",
+    "social": {
+      "facebook": "Priya Kumar",
+      "twitter": "PriyaKumar19",
+      "linkedin": "priyakumar"
+    }
+  },
+  {
+    "id": 20,
+    "firstName": "Amit",
+    "lastName": "Kumar",
+    "email": "amitkumar@gmail.com",
+    "avatar": "https://randomuser.me/api/portraits/men/80.jpg",
+    "gender": "male",
+    "phoneNumber": "+1 (555) 321-6549",
+    "address": {
+      "street": "606 MG Road",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "zip": "411001"
+    },
+    "jobTitle": "Software Developer",
+    "company": "CodeBase",
+    "interests": ["coding", "gaming", "music"],
+    "isActive": false,
+    "registered": "2018-12-05T11:00:00.000Z",
+    "about": "A software developer with a passion for coding and gaming.",
+    "social": {
+      "facebook": "Amit Kumar",
+      "twitter": "AmitKumar10",
+      "linkedin": "amitkumar"
+    }
+  }
+]

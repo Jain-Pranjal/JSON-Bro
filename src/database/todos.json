@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "title": "Make the jsonbro ",
+    "completed": true,
+    "userId": 1,
+    "dueDate": "2024-09-10T12:00:00Z"
+  },
+  {
+    "id": 2,
+    "title": "Complete homework",
+    "completed": true,
+    "userId": 8,
+    "dueDate": "2024-09-12T15:00:00Z"
+  },
+  {
+    "id": 3,
+    "title": "Call the plumber",
+    "completed": false,
+    "userId": 5,
+    "dueDate": "2024-09-15T09:00:00Z"
+  },
+  {
+    "id": 4,
+    "title": "Schedule dentist appointment",
+    "completed": true,
+    "userId": 14,
+    "dueDate": "2024-09-20T10:00:00Z"
+  },
+  {
+    "id": 5,
+    "title": "Prepare for the presentation",
+    "completed": false,
+    "userId": 7,
+    "dueDate": "2024-09-25T11:00:00Z"
+  },
+  {
+    "id": 6,
+    "title": "Buy a new laptop",
+    "completed": false,
+    "userId": 11,
+    "dueDate": "2024-09-30T14:00:00Z"
+  },
+  {
+    "id": 7,
+    "title": "Plan weekend trip",
+    "completed": true,
+    "userId": 3,
+    "dueDate": "2024-09-28T16:00:00Z"
+  },
+  {
+    "id": 8,
+    "title": "Read a book",
+    "completed": false,
+    "userId": 6,
+    "dueDate": "2024-09-22T18:00:00Z"
+  },
+  {
+    "id": 9,
+    "title": "Update resume",
+    "completed": true,
+    "userId": 9,
+    "dueDate": "2024-09-18T12:00:00Z"
+  },
+  {
+    "id": 10,
+    "title": "Organize workspace",
+    "completed": false,
+    "userId": 10,
+    "dueDate": "2024-09-23T13:00:00Z"
+  },
+  {
+    "id": 11,
+    "title": "Go for a run",
+    "completed": false,
+    "userId": 13,
+    "dueDate": "2024-09-26T14:00:00Z"
+  },
+  {
+    "id": 12,
+    "title": "Watch a movie",
+    "completed": true,
+    "userId": 4,
+    "dueDate": "2024-09-29T15:00:00Z"
+  },
+  {
+    "id": 13,
+    "title": "Learn a new language",
+    "completed": false,
+    "userId": 2,
+    "dueDate": "2024-09-27T16:00:00Z"
+  },
+  {
+    "id": 14,
+    "title": "Cook dinner",
+    "completed": true,
+    "userId": 1,
+    "dueDate": "2024-09-24T17:00:00Z"
+  },
+  {
+    "id": 15,
+    "title": "Go to the gym",
+    "completed": false,
+    "userId": 12,
+    "dueDate": "2024-09-21T18:00:00Z"
+  },
+  {
+    "id": 16,
+    "title": "Take the dog for a walk",
+    "completed": false,
+    "userId": 23,
+    "dueDate": "2024-09-19T19:00:00Z"
+  },
+  {
+    "id": 17,
+    "title": "Clean the house",
+    "completed": true,
+    "userId": 34,
+    "dueDate": "2024-09-16T20:00:00Z"
+  },
+  {
+    "id": 18,
+    "title": "Water the plants",
+    "completed": false,
+    "userId": 45,
+    "dueDate": "2024-09-13T21:00:00Z"
+  },
+  {
+    "id": 19,
+    "title": "Take out the trash",
+    "completed": true,
+    "userId": 56,
+    "dueDate": "2024-09-11T22:00:00Z"
+  },
+  {
+    "id": 20,
+    "title": "Mow the lawn",
+    "completed": false,
+    "userId": 67,
+    "dueDate": "2024-09-14T23:00:00Z"
+  },
+  {
+    "id": 21,
+    "title": "Wash the car",
+    "completed": false,
+    "userId": 78,
+    "dueDate": "2024-09-15T10:00:00Z"
+  },
+  {
+    "id": 22,
+    "title": "Buy groceries",
+    "completed": true,
+    "userId": 89,
+    "dueDate": "2024-09-16T12:00:00Z"
+  },
+  {
+    "id": 23,
+    "title": "Clean the house",
+    "completed": false,
+    "userId": 90,
+    "dueDate": "2024-09-17T14:00:00Z"
+  },
+  {
+    "id": 24,
+    "title": "Pay bills",
+    "completed": true,
+    "userId": 21,
+    "dueDate": "2024-09-18T16:00:00Z"
+  },
+  {
+    "id": 25,
+    "title": "Prepare presentation",
+    "completed": false,
+    "userId": 32,
+    "dueDate": "2024-09-19T18:00:00Z"
+  },
+  {
+    "id": 26,
+    "title": "Attend meeting",
+    "completed": true,
+    "userId": 43,
+    "dueDate": "2024-09-20T20:00:00Z"
+  },
+  {
+    "id": 27,
+    "title": "Read a book",
+    "completed": false,
+    "userId": 54,
+    "dueDate": "2024-09-21T22:00:00Z"
+  },
+  {
+    "id": 28,
+    "title": "Exercise",
+    "completed": true,
+    "userId": 65,
+    "dueDate": "2024-09-22T06:00:00Z"
+  },
+  {
+    "id": 29,
+    "title": "Call mom",
+    "completed": false,
+    "userId": 76,
+    "dueDate": "2024-09-23T08:00:00Z"
+  },
+  {
+    "id": 30,
+    "title": "Fix the sink",
+    "completed": true,
+    "userId": 87,
+    "dueDate": "2024-09-24T10:00:00Z"
+  },
+  {
+    "id": 31,
+    "title": "Plan vacation",
+    "completed": false,
+    "userId": 98,
+    "dueDate": "2024-09-25T12:00:00Z"
+  },
+  {
+    "id": 32,
+    "title": "Attend workshop",
+    "completed": true,
+    "userId": 19,
+    "dueDate": "2024-09-26T14:00:00Z"
+  },
+  {
+    "id": 33,
+    "title": "Write blog post",
+    "completed": false,
+    "userId": 28,
+    "dueDate": "2024-09-27T16:00:00Z"
+  },
+  {
+    "id": 34,
+    "title": "Organize files",
+    "completed": true,
+    "userId": 37,
+    "dueDate": "2024-09-28T18:00:00Z"
+  },
+  {
+    "id": 35,
+    "title": "Visit dentist",
+    "completed": false,
+    "userId": 46,
+    "dueDate": "2024-09-29T20:00:00Z"
+  },
+  {
+    "id": 36,
+    "title": "Update resume",
+    "completed": true,
+    "userId": 55,
+    "dueDate": "2024-09-30T22:00:00Z"
+  },
+  {
+    "id": 37,
+    "title": "Grocery shopping",
+    "completed": false,
+    "userId": 64,
+    "dueDate": "2024-10-01T06:00:00Z"
+  },
+  {
+    "id": 38,
+    "title": "Clean garage",
+    "completed": true,
+    "userId": 73,
+    "dueDate": "2024-10-02T08:00:00Z"
+  },
+  {
+    "id": 39,
+    "title": "Pay rent",
+    "completed": false,
+    "userId": 82,
+    "dueDate": "2024-10-03T10:00:00Z"
+  },
+  {
+    "id": 40,
+    "title": "Water plants",
+    "completed": true,
+    "userId": 91,
+    "dueDate": "2024-10-04T12:00:00Z"
+  },
+  {
+    "id": 41,
+    "title": "Finish project report",
+    "completed": false,
+    "userId": 12,
+    "dueDate": "2024-10-05T14:00:00Z"
+  },
+  {
+    "id": 42,
+    "title": "Attend yoga class",
+    "completed": true,
+    "userId": 23,
+    "dueDate": "2024-10-06T16:00:00Z"
+  },
+  {
+    "id": 43,
+    "title": "Schedule doctor appointment",
+    "completed": false,
+    "userId": 34,
+    "dueDate": "2024-10-07T18:00:00Z"
+  },
+  {
+    "id": 44,
+    "title": "Renew car insurance",
+    "completed": true,
+    "userId": 45,
+    "dueDate": "2024-10-08T20:00:00Z"
+  },
+  {
+    "id": 45,
+    "title": "Prepare for exam",
+    "completed": false,
+    "userId": 56,
+    "dueDate": "2024-10-09T22:00:00Z"
+  },
+  {
+    "id": 46,
+    "title": "Visit grandparents",
+    "completed": true,
+    "userId": 67,
+    "dueDate": "2024-10-10T06:00:00Z"
+  },
+  {
+    "id": 47,
+    "title": "Organize closet",
+    "completed": false,
+    "userId": 78,
+    "dueDate": "2024-10-11T08:00:00Z"
+  },
+  {
+    "id": 48,
+    "title": "Write thank you notes",
+    "completed": true,
+    "userId": 89,
+    "dueDate": "2024-10-12T10:00:00Z"
+  },
+  {
+    "id": 49,
+    "title": "Plan birthday party",
+    "completed": false,
+    "userId": 90,
+    "dueDate": "2024-10-13T12:00:00Z"
+  },
+  {
+    "id": 50,
+    "title": "Update software",
+    "completed": true,
+    "userId": 21,
+    "dueDate": "2024-10-14T14:00:00Z"
+  }
+]
