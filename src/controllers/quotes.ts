@@ -36,7 +36,7 @@ export async function getQuoteById(id: number): Promise<Quote | null> {
       const data = await fs.promises.readFile(path.join(process.cwd(), 'src/database/quotes.json'), 'utf8');
       const quotes: Quote[] = JSON.parse(data);
   
-      // Find the todo by id
+      // Find the quote by id
       const quote = quotes.find(todo => todo.id === id);
   
       return quote || null; // Return null if not found
@@ -77,7 +77,7 @@ export async function getQuoteById(id: number): Promise<Quote | null> {
       // If no quotes exist, return null
       if (quotes.length === 0) return null;
   
-      // Generate a random index and return the todo at that index
+      // Generate a random index and return the quote at that index
       const randomIndex = Math.floor(Math.random() * quotes.length);
       return quotes[randomIndex];
     } catch (error) {

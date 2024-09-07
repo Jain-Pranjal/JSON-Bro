@@ -23,6 +23,10 @@ const nextConfig = {
           destination: '/api/users',
         },
         {
+          source: '/users/:id',
+          destination: '/api/users/:id',
+        },
+        {
           source: '/products',
           destination: '/api/products',
         },

@@ -29,7 +29,7 @@ export async function GET(request: NextRequest) {
 
 
 // all quotes :- http://localhost:3000/quotes
-// single quotes :- http://localhost:3000/quote/:id
+// single quotes :- http://localhost:3000/quotes/:id
 // limit quotes :- http://localhost:3000/quotes?limit=2
 // skip quotes :- http://localhost:3000/quotes?skip=2
 // limit and skip quotes :- http://localhost:3000/quotes?limit=2&skip=2

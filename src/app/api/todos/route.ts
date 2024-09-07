@@ -1,5 +1,5 @@
 import { NextRequest,NextResponse } from "next/server";
-import { getAllTodos,getTodoById,getTodosByLimitAndSkip } from "@/controllers/todos"
+import { getAllTodos,getTodosByLimitAndSkip } from "@/controllers/todos"
 
 
 export async function GET(request: NextRequest) {
