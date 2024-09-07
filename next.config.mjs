@@ -7,22 +7,30 @@ const nextConfig = {
           destination: '/api/todos',
         },
         {
-          source: '/products',
-          destination: '/api/products',
+          source: '/todos/:id',
+          destination: '/api/todos/:id',
+        },
+        {
+          source: '/quotes',
+          destination: '/api/quotes/',
+        },
+        {
+          source: '/quotes/:id',
+          destination: '/api/quotes/:id',
         },
         {
           source: '/users',
           destination: '/api/users',
         },
         {
-          source: '/posts',
-          destination: '/api/posts',
+          source: '/products',
+          destination: '/api/products',
         },
         {
-          source: '/todos/:id',
-          destination: '/api/todos/:id',
+          source: '/posts',
+          destination: '/api/posts',
         }
-        // Add more rewrites as needed for other routes
+       
       ];
     },
   };

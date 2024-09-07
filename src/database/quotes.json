@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "quote": "The only limit to our realization of tomorrow is our doubts of today.",
+    "author": "Franklin D. Roosevelt",
+    "date": "2023-10-01T10:00:00Z",
+    "tags": ["inspiration", "motivation"]
+  },
+  {
+    "id": 2,
+    "quote": "In the end, we will remember not the words of our enemies, but the silence of our friends.",
+    "author": "Martin Luther King Jr.",
+    "date": "2023-09-25T09:00:00Z",
+    "tags": ["friendship", "reflection"]
+  },
+  {
+    "id": 3,
+    "quote": "The best way to predict the future is to invent it.",
+    "author": "Alan Kay",
+    "date": "2023-09-20T08:00:00Z",
+    "tags": ["future", "innovation"]
+  },
+  {
+    "id": 4,
+    "quote": "Life is 10% what happens to us and 90% how we react to it.",
+    "author": "Charles R. Swindoll",
+    "date": "2023-09-15T07:00:00Z",
+    "tags": ["life", "attitude"]
+  },
+  {
+    "id": 5,
+    "quote": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs",
+    "date": "2023-09-10T06:00:00Z",
+    "tags": ["work", "passion"]
+  },
+  {
+    "id": 6,
+    "quote": "Success is not the key to happiness. Happiness is the key to success.",
+    "author": "Albert Schweitzer",
+    "date": "2023-09-05T05:00:00Z",
+    "tags": ["success", "happiness"]
+  },
+  {
+    "id": 7,
+    "quote": "The purpose of our lives is to be happy.",
+    "author": "Dalai Lama",
+    "date": "2023-09-01T04:00:00Z",
+    "tags": ["life", "happiness"]
+  },
+  {
+    "id": 8,
+    "quote": "Life is what happens when you're busy making other plans.",
+    "author": "John Lennon",
+    "date": "2023-08-25T03:00:00Z",
+    "tags": ["life", "plans"]
+  },
+  {
+    "id": 9,
+    "quote": "Get busy living or get busy dying.",
+    "author": "Stephen King",
+    "date": "2023-08-20T02:00:00Z",
+    "tags": ["life", "motivation"]
+  },
+  {
+    "id": 10,
+    "quote": "You have within you right now, everything you need to deal with whatever the world can throw at you.",
+    "author": "Brian Tracy",
+    "date": "2023-08-15T01:00:00Z",
+    "tags": ["strength", "motivation"]
+  },
+  {
+    "id": 11,
+    "quote": "Believe you can and you're halfway there.",
+    "author": "Theodore Roosevelt",
+    "date": "2023-08-10T10:00:00Z",
+    "tags": ["belief", "motivation"]
+  },
+  {
+    "id": 12,
+    "quote": "The only impossible journey is the one you never begin.",
+    "author": "Tony Robbins",
+    "date": "2023-08-05T09:00:00Z",
+    "tags": ["journey", "motivation"]
+  },
+  {
+    "id": 13,
+    "quote": "Act as if what you do makes a difference. It does.",
+    "author": "William James",
+    "date": "2023-08-01T08:00:00Z",
+    "tags": ["action", "motivation"]
+  },
+  {
+    "id": 14,
+    "quote": "Success usually comes to those who are too busy to be looking for it.",
+    "author": "Henry David Thoreau",
+    "date": "2023-07-25T07:00:00Z",
+    "tags": ["success", "hard work"]
+  },
+  {
+    "id": 15,
+    "quote": "Don't be afraid to give up the good to go for the great.",
+    "author": "John D. Rockefeller",
+    "date": "2023-07-20T06:00:00Z",
+    "tags": ["success", "motivation"]
+  },
+  {
+    "id": 16,
+    "quote": "I find that the harder I work, the more luck I seem to have.",
+    "author": "Thomas Jefferson",
+    "date": "2023-07-15T05:00:00Z",
+    "tags": ["hard work", "luck"]
+  },
+  {
+    "id": 17,
+    "quote": "Success is not in what you have, but who you are.",
+    "author": "Bo Bennett",
+    "date": "2023-07-10T04:00:00Z",
+    "tags": ["success", "identity"]
+  },
+  {
+    "id": 18,
+    "quote": "The way to get started is to quit talking and begin doing.",
+    "author": "Walt Disney",
+    "date": "2023-07-05T03:00:00Z",
+    "tags": ["action", "motivation"]
+  },
+  {
+    "id": 19,
+    "quote": "Don't watch the clock; do what it does. Keep going.",
+    "author": "Sam Levenson",
+    "date": "2023-07-01T02:00:00Z",
+    "tags": ["time", "motivation"]
+  },
+  {
+    "id": 20,
+    "quote": "Keep your face always toward the sunshine—and shadows will fall behind you.",
+    "author": "Walt Whitman",
+    "date": "2023-06-25T01:00:00Z",
+    "tags": ["positivity", "motivation"]
+  },
+  {
+    "id": 21,
+    "quote": "The best revenge is massive success.",
+    "author": "Frank Sinatra",
+    "date": "2023-06-20T10:00:00Z",
+    "tags": ["success", "motivation"]
+  },
+  {
+    "id": 22,
+    "quote": "The only way to achieve the impossible is to believe it is possible.",
+    "author": "Charles Kingsleigh",
+    "date": "2023-06-15T09:00:00Z",
+    "tags": ["belief", "motivation"]
+  },
+  {
+    "id": 23,
+    "quote": "The future belongs to those who believe in the beauty of their dreams.",
+    "author": "Eleanor Roosevelt",
+    "date": "2023-06-10T08:00:00Z",
+    "tags": ["dreams", "future"]
+  },
+  {
+    "id": 24,
+    "quote": "It does not matter how slowly you go as long as you do not stop.",
+    "author": "Confucius",
+    "date": "2023-06-05T07:00:00Z",
+    "tags": ["perseverance", "motivation"]
+  },
+  {
+    "id": 25,
+    "quote": "You are never too old to set another goal or to dream a new dream.",
+    "author": "C.S. Lewis",
+    "date": "2023-06-01T06:00:00Z",
+    "tags": ["goals", "dreams"]
+  },
+  {
+    "id": 26,
+    "quote": "The only place where success comes before work is in the dictionary.",
+    "author": "Vidal Sassoon",
+    "date": "2023-05-25T05:00:00Z",
+    "tags": ["success", "work"]
+  },
+  {
+    "id": 27,
+    "quote": "The harder the conflict, the greater the triumph.",
+    "author": "George Washington",
+    "date": "2023-05-20T04:00:00Z",
+    "tags": ["conflict", "triumph"]
+  },
+  {
+    "id": 28,
+    "quote": "What you get by achieving your goals is not as important as what you become by achieving your goals.",
+    "author": "Zig Ziglar",
+    "date": "2023-05-15T03:00:00Z",
+    "tags": ["goals", "achievement"]
+  },
+  {
+    "id": 29,
+    "quote": "The only thing standing between you and your goal is the story you keep telling yourself as to why you can't achieve it.",
+    "author": "Jordan Belfort",
+    "date": "2023-05-10T02:00:00Z",
+    "tags": ["goals", "motivation"]
+  },
+  {
+    "id": 30,
+    "quote": "The best time to plant a tree was 20 years ago. The second best time is now.",
+    "author": "Chinese Proverb",
+    "date": "2023-05-05T01:00:00Z",
+    "tags": ["time", "action"]
+  },
+  {
+    "id": 31,
+    "quote": "Your time is limited, don't waste it living someone else's life.",
+    "author": "Steve Jobs",
+    "date": "2023-05-01T10:00:00Z",
+    "tags": ["time", "life"]
+  },
+  {
+    "id": 32,
+    "quote": "You miss 100% of the shots you don't take.",
+    "author": "Wayne Gretzky",
+    "date": "2023-04-25T09:00:00Z",
+    "tags": ["action", "motivation"]
+  },
+  {
+    "id": 33,
+    "quote": "Whether you think you can or you think you can't, you're right.",
+    "author": "Henry Ford",
+    "date": "2023-04-20T08:00:00Z",
+    "tags": ["belief", "motivation"]
+  },
+  {
+    "id": 34,
+    "quote": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs",
+    "date": "2023-04-15T07:00:00Z",
+    "tags": ["work", "passion"]
+  },
+  {
+    "id": 35,
+    "quote": "The best way to predict the future is to create it.",
+    "author": "Peter Drucker",
+    "date": "2023-04-10T06:00:00Z",
+    "tags": ["future", "creation"]
+  },
+  {
+    "id": 36,
+    "quote": "Don't let yesterday take up too much of today.",
+    "author": "Will Rogers",
+    "date": "2023-04-05T05:00:00Z",
+    "tags": ["time", "motivation"]
+  },
+  {
+    "id": 37,
+    "quote": "You learn more from failure than from success. Don't let it stop you. Failure builds character.",
+    "author": "Unknown",
+    "date": "2023-04-01T04:00:00Z",
+    "tags": ["failure", "learning"]
+  },
+  {
+    "id": 38,
+    "quote": "It's not whether you get knocked down, it's whether you get up.",
+    "author": "Vince Lombardi",
+    "date": "2023-03-25T03:00:00Z",
+    "tags": ["perseverance", "motivation"]
+  },
+  {
+    "id": 39,
+    "quote": "If you are working on something that you really care about, you don't have to be pushed. The vision pulls you.",
+    "author": "Steve Jobs",
+    "date": "2023-03-20T02:00:00Z",
+    "tags": ["vision", "motivation"]
+  },
+  {
+    "id": 40,
+    "quote": "People who are crazy enough to think they can change the world, are the ones who do.",
+    "author": "Rob Siltanen",
+    "date": "2023-03-15T01:00:00Z",
+    "tags": ["change", "motivation"]
+  },
+  {
+    "id": 41,
+    "quote": "Failure will never overtake me if my determination to succeed is strong enough.",
+    "author": "Og Mandino",
+    "date": "2023-03-10T10:00:00Z",
+    "tags": ["failure", "determination"]
+  },
+  {
+    "id": 42,
+    "quote": "We may encounter many defeats but we must not be defeated.",
+    "author": "Maya Angelou",
+    "date": "2023-03-05T09:00:00Z",
+    "tags": ["defeat", "motivation"]
+  },
+  {
+    "id": 43,
+    "quote": "Knowing is not enough; we must apply. Wishing is not enough; we must do.",
+    "author": "Johann Wolfgang Von Goethe",
+    "date": "2023-03-01T08:00:00Z",
+    "tags": ["action", "motivation"]
+  },
+  {
+    "id": 44,
+    "quote": "Imagine your life is perfect in every respect; what would it look like?",
+    "author": "Brian Tracy",
+    "date": "2023-02-25T07:00:00Z",
+    "tags": ["imagination", "motivation"]
+  },
+  {
+    "id": 45,
+    "quote": "We generate fears while we sit. We overcome them by action.",
+    "author": "Dr. Henry Link",
+    "date": "2023-02-20T06:00:00Z",
+    "tags": ["fear", "action"]
+  },
+  {
+    "id": 46,
+    "quote": "Whether you think you can or think you can't, you're right.",
+    "author": "Henry Ford",
+    "date": "2023-02-15T05:00:00Z",
+    "tags": ["belief", "motivation"]
+  },
+  {
+    "id": 47,
+    "quote": "Security is mostly a superstition. Life is either a daring adventure or nothing.",
+    "author": "Helen Keller",
+    "date": "2023-02-10T04:00:00Z",
+    "tags": ["adventure", "life"]
+  },
+  {
+    "id": 48,
+    "quote": "The man who has confidence in himself gains the confidence of others.",
+    "author": "Hasidic Proverb",
+    "date": "2023-02-05T03:00:00Z",
+    "tags": ["confidence", "motivation"]
+  },
+  {
+    "id": 49,
+    "quote": "The only limit to our realization of tomorrow is our doubts of today.",
+    "author": "Franklin D. Roosevelt",
+    "date": "2023-02-01T02:00:00Z",
+    "tags": ["doubt", "motivation"]
+  },
+  {
+    "id": 50,
+    "quote": "Creativity is intelligence having fun.",
+    "author": "Albert Einstein",
+    "date": "2023-01-25T01:00:00Z",
+    "tags": ["creativity", "intelligence"]
+  }
+]
