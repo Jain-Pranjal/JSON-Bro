@@ -23,7 +23,13 @@
       "facebook": "Pranjal Jain",
       "twitter": "PranjalJain03",
       "linkedin": "pranjalll"
-    }
+    },
+    "birthDate": "1990-05-15",
+    "username": "pranjaljain",
+    "password": "password123",
+    "bloodGroup": "B+",
+    "height": 175,
+    "weight": 70
   },
   {
     "id": 2,
@@ -49,7 +55,13 @@
       "facebook": "Aarav Sharma",
       "twitter": "AaravSharma01",
       "linkedin": "aaravsharma"
-    }
+    },
+    "birthDate": "1985-08-20",
+    "username": "aaravsharma",
+    "password": "securepass456",
+    "bloodGroup": "O+",
+    "height": 180,
+    "weight": 75
   },
   {
     "id": 3,
@@ -75,7 +87,13 @@
       "facebook": "Isha Verma",
       "twitter": "IshaVerma02",
       "linkedin": "ishaverma"
-    }
+    },
+    "birthDate": "1992-11-30",
+    "username": "ishaverma",
+    "password": "mypassword789",
+    "bloodGroup": "A+",
+    "height": 165,
+    "weight": 60
   },
   {
     "id": 4,
@@ -101,7 +119,13 @@
       "facebook": "Rohan Patel",
       "twitter": "RohanPatel03",
       "linkedin": "rohanpatel"
-    }
+    },
+    "birthDate": "1988-03-22",
+    "username": "rohanpatel",
+    "password": "designpass321",
+    "bloodGroup": "AB+",
+    "height": 170,
+    "weight": 68
   },
   {
     "id": 5,
@@ -127,7 +151,13 @@
       "facebook": "Ananya Singh",
       "twitter": "AnanyaSingh04",
       "linkedin": "ananyasingh"
-    }
+    },
+    "birthDate": "1995-07-10",
+    "username": "ananyasingh",
+    "password": "marketpass654",
+    "bloodGroup": "B-",
+    "height": 160,
+    "weight": 55
   },
   {
     "id": 6,
@@ -153,9 +183,15 @@
       "facebook": "Vikram Reddy",
       "twitter": "VikramReddy05",
       "linkedin": "vikramreddy"
-    }
+    },
+    "birthDate": "1987-12-05",
+    "username": "vikramreddy",
+    "password": "devopspass987",
+    "bloodGroup": "O-",
+    "height": 178,
+    "weight": 72
   },
-    {
+  {
     "id": 7,
     "firstName": "Meera",
     "lastName": "Kapoor",
@@ -179,7 +215,13 @@
       "facebook": "Meera Kapoor",
       "twitter": "MeeraKapoor07",
       "linkedin": "meerakapoor"
-    }
+    },
+    "birthDate": "1993-04-18",
+    "username": "meerakapoor",
+    "password": "designpass123",
+    "bloodGroup": "A-",
+    "height": 162,
+    "weight": 58
   },
   {
     "id": 8,
@@ -205,7 +247,13 @@
       "facebook": "Raj Singh",
       "twitter": "RajSingh08",
       "linkedin": "rajsingh"
-    }
+    },
+    "birthDate": "1982-09-10",
+    "username": "rajsingh",
+    "password": "projectpass456",
+    "bloodGroup": "B+",
+    "height": 182,
+    "weight": 80
   },
   {
     "id": 9,
@@ -231,7 +279,13 @@
       "facebook": "Sanya Mehta",
       "twitter": "SanyaMehta09",
       "linkedin": "sanyamehta"
-    }
+    },
+    "birthDate": "1991-06-25",
+    "username": "sanyamehta",
+    "password": "hrpass789",
+    "bloodGroup": "O+",
+    "height": 168,
+    "weight": 62
   },
   {
     "id": 10,
@@ -257,9 +311,15 @@
       "facebook": "Amit Kumar",
       "twitter": "AmitKumar10",
       "linkedin": "amitkumar"
-    }
+    },
+    "birthDate": "1989-11-15",
+    "username": "amitkumar",
+    "password": "devpass321",
+    "bloodGroup": "AB+",
+    "height": 176,
+    "weight": 74
   },
-    {
+  {
     "id": 11,
     "firstName": "Neha",
     "lastName": "Gupta",
@@ -283,7 +343,13 @@
       "facebook": "Neha Gupta",
       "twitter": "NehaGupta11",
       "linkedin": "nehagupta"
-    }
+    },
+    "birthDate": "1994-02-20",
+    "username": "nehagupta",
+    "password": "writepass654",
+    "bloodGroup": "A+",
+    "height": 164,
+    "weight": 59
   },
   {
     "id": 12,
@@ -309,7 +375,13 @@
       "facebook": "Karan Malhotra",
       "twitter": "KaranMalhotra12",
       "linkedin": "karanmalhotra"
-    }
+    },
+    "birthDate": "1986-07-12",
+    "username": "karanmalhotra",
+    "password": "bizpass789",
+    "bloodGroup": "B-",
+    "height": 180,
+    "weight": 78
   },
   {
     "id": 13,
@@ -335,7 +407,13 @@
       "facebook": "Pooja Rao",
       "twitter": "PoojaRao13",
       "linkedin": "poojarao"
-    }
+    },
+    "birthDate": "1992-03-18",
+    "username": "poojarao",
+    "password": "marketpass321",
+    "bloodGroup": "O+",
+    "height": 166,
+    "weight": 61
   },
   {
     "id": 14,
@@ -361,7 +439,13 @@
       "facebook": "Vikas Singh",
       "twitter": "VikasSingh14",
       "linkedin": "vikassingh"
-    }
+    },
+    "birthDate": "1985-05-22",
+    "username": "vikassingh",
+    "password": "netpass654",
+    "bloodGroup": "AB-",
+    "height": 174,
+    "weight": 73
   },
   {
     "id": 15,
@@ -387,7 +471,13 @@
       "facebook": "Ritu Sharma",
       "twitter": "RituSharma15",
       "linkedin": "ritusharma"
-    }
+    },
+    "birthDate": "1990-08-10",
+    "username": "ritusharma",
+    "password": "financepass987",
+    "bloodGroup": "B+",
+    "height": 170,
+    "weight": 65
   },
   {
     "id": 16,
@@ -413,7 +503,13 @@
       "facebook": "Arjun Nair",
       "twitter": "ArjunNair16",
       "linkedin": "arjunnair"
-    }
+    },
+    "birthDate": "1988-01-25",
+    "username": "arjunnair",
+    "password": "testpass123",
+    "bloodGroup": "O+",
+    "height": 172,
+    "weight": 70
   },
   {
     "id": 17,
@@ -439,7 +535,13 @@
       "facebook": "Sneha Patel",
       "twitter": "SnehaPatel17",
       "linkedin": "snehapatel"
-    }
+    },
+    "birthDate": "1987-04-18",
+    "username": "snehapatel",
+    "password": "opspass321",
+    "bloodGroup": "A+",
+    "height": 168,
+    "weight": 63
   },
   {
     "id": 18,
@@ -465,7 +567,13 @@
       "facebook": "Rohan Desai",
       "twitter": "RohanDesai18",
       "linkedin": "rohdesai"
-    }
+    },
+    "birthDate": "1986-09-12",
+    "username": "rohdesai",
+    "password": "salespass123",
+    "bloodGroup": "B+",
+    "height": 172,
+    "weight": 70
   },
   {
     "id": 19,
@@ -491,7 +599,13 @@
       "facebook": "Priya Kumar",
       "twitter": "PriyaKumar19",
       "linkedin": "priyakumar"
-    }
+    },
+    "birthDate": "1990-02-25",
+    "username": "priyakumar",
+    "password": "hrpass456",
+    "bloodGroup": "O+",
+    "height": 162,
+    "weight": 58
   },
   {
     "id": 20,
@@ -517,6 +631,12 @@
       "facebook": "Amit Kumar",
       "twitter": "AmitKumar10",
       "linkedin": "amitkumar"
-    }
+    },
+    "birthDate": "1989-11-15",
+    "username": "amitkumar",
+    "password": "devpass789",
+    "bloodGroup": "A-",
+    "height": 174,
+    "weight": 72
   }
 ]
