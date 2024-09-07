@@ -18,6 +18,10 @@ const nextConfig = {
           source: '/posts',
           destination: '/api/posts',
         },
+        {
+          source: '/todos/:id',
+          destination: '/api/todos/:id',
+        }
         // Add more rewrites as needed for other routes
       ];
     },
