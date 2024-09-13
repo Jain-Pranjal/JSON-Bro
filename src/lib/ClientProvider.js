@@ -21,7 +21,7 @@ const ClientProvider = ({ children }) => {
   return (
     <QueryClientProvider client={queryClient}>
       {children}
-      <ReactQueryDevtools initialIsOpen={false} buttonPosition={"top-right"}/>
+      <ReactQueryDevtools initialIsOpen={false} buttonPosition={"bottom-right"}/>
     </QueryClientProvider>
   );
 };
