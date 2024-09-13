@@ -33,7 +33,11 @@ const nextConfig = {
         {
           source: '/posts',
           destination: '/api/posts',
-        }
+        },
+        {
+          source: '/posts/:id',
+          destination: '/api/posts/:id',
+        },
        
       ];
     },

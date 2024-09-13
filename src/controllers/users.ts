@@ -38,7 +38,7 @@ export async function getUserById(id: number): Promise<User | null> {
     const users: User[] = JSON.parse(data);
 
     // Find the user by id
-    const user = users.find(todo => todo.id === id);
+    const user = users.find(user => user.id === id);
 
     return user || null; // Return null if not found
   } catch (error) {
