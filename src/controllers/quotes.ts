@@ -37,11 +37,11 @@ export async function getQuoteById(id: number): Promise<Quote | null> {
       const quotes: Quote[] = JSON.parse(data);
   
       // Find the quote by id
-      const quote = quotes.find(todo => todo.id === id);
+      const quote = quotes.find(quote => quote.id === id);
   
       return quote || null; // Return null if not found
     } catch (error) {
-      console.error('Error reading todos.json:', error);
+      console.error('Error reading quotes.json:', error);
       return null;
     }
   }
