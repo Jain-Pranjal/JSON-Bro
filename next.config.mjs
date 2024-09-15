@@ -42,6 +42,14 @@ const nextConfig = {
           source: '/posts/:id',
           destination: '/api/posts/:id',
         },
+        {
+          source: '/carts',
+          destination: '/api/carts',
+        },
+        {
+          source: '/carts/:id',
+          destination: '/api/carts/:id',
+        },
        
       ];
     },
