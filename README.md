@@ -4,3 +4,5 @@ JSON Bro is a web application designed to help users manage and interact with JS
 # todo 
 - need to make the custom api resposne that user can use like 
 - genertate https://mocki.io/
+
+at present i dont have the https protocal so i will use the http protocal for the api response
