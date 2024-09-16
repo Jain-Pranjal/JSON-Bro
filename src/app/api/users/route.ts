@@ -28,10 +28,10 @@ export async function GET(request: NextRequest) {
 
 
 
-export async function POST(request: NextRequest,response: NextResponse) {}
-export async function PUT(request: NextRequest,response: NextResponse) {}
-export async function PATCH(request: NextRequest,response: NextResponse) {}
-export async function DELETE(request: NextRequest,response: NextResponse) {}
+// export async function POST(request: NextRequest,response: NextResponse) {}
+// export async function PUT(request: NextRequest,response: NextResponse) {}
+// export async function PATCH(request: NextRequest,response: NextResponse) {}
+// export async function DELETE(request: NextRequest,response: NextResponse) {}
 
 
 

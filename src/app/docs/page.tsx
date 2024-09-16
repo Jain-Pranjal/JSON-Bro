@@ -791,7 +791,7 @@
 
 'use client'
 
-import { useState, useRef, useEffect } from 'react'
+import { useState, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Terminal, Menu, X, Copy, Check, Play } from 'lucide-react'
 import { Button } from "@/components/ui/button"

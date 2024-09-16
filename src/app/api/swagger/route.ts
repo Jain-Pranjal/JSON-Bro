@@ -1,6 +1,6 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 import swaggerJSDoc from 'swagger-jsdoc';
-import swaggerUi from 'swagger-ui-express';
+// import swaggerUi from 'swagger-ui-express';
 import swaggerDefinition from "@/config/swaggerConfig";
 
 // Swagger definition

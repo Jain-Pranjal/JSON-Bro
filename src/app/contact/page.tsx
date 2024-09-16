@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Button } from "@/components/ui/button"
-import { Terminal } from 'lucide-react'
+// import { Terminal } from 'lucide-react'
 import Navbar from '@/components/Navbar' // Include the Navbar component
 import Particles from "react-tsparticles"
 import { loadSlim } from "tsparticles-slim"
