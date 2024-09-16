@@ -50,6 +50,22 @@ const nextConfig = {
           source: '/carts/:id',
           destination: '/api/carts/:id',
         },
+        {
+          source: '/recipies',
+          destination: '/api/recipies',
+        },
+        {
+          source: '/recipies/:id',
+          destination: '/api/recipies/:id',
+        },
+        {
+          source: '/comments',
+          destination: '/api/comments',
+        },
+        {
+          source: '/comments/:id',
+          destination: '/api/comments/:id',
+        },
        
       ];
     },
