@@ -1,0 +1,389 @@
+[
+  {
+    "id": 1,
+    "body": "This smartphone is amazing! The battery life is incredible and the camera quality is top-notch.",
+    "postId": 5,
+    "user": {
+      "username": "john_doe",
+      "email": "john.doe@example.com",
+      "userid": 101
+    },
+    "natureOfComment": "positive"
+  },
+  {
+    "id": 2,
+    "body": "The digital camera takes stunning photos, but the battery life could be better.",
+    "postId": 10,
+    "user": {
+      "username": "jane_smith",
+      "email": "jane.smith@example.com",
+      "userid": 102
+    },
+    "natureOfComment": "mixed"
+  },
+  {
+    "id": 3,
+    "body": "The electric toothbrush works great and the battery lasts a long time.",
+    "postId": 15,
+    "user": {
+      "username": "alice_jones",
+      "email": "alice.jones@example.com",
+      "userid": 103
+    },
+    "natureOfComment": "positive"
+  },
+  {
+    "id": 4,
+    "body": "The smartwatch is very stylish and has a lot of useful features.",
+    "postId": 7,
+    "user": {
+      "username": "bob_brown",
+      "email": "bob.brown@example.com",
+      "userid": 104
+    },
+    "natureOfComment": "positive"
+  },
+  {
+    "id": 5,
+    "body": "This laptop is perfect for gaming and professional use. Highly recommend!",
+    "postId": 8,
+    "user": {
+      "username": "charlie_davis",
+      "email": "charlie.davis@example.com",
+      "userid": 105
+    },
+    "natureOfComment": "positive"
+  },
+  {
+    "id": 6,
+    "body": "The lipstick has a beautiful color and lasts all day.",
+    "postId": 11,
+    "user": {
+      "username": "diana_prince",
+      "email": "diana.prince@example.com",
+      "userid": 106
+    },
+    "natureOfComment": "positive"
+  },
+  {
+    "id": 7,
+    "body": "The foundation blends perfectly and feels light on the skin.",
+    "postId": 12,
+    "user": {
+      "username": "edward_clark",
+      "email": "edward.clark@example.com",
+      "userid": 107
+    },
+    "natureOfComment": "positive"
+  },
+  {
+    "id": 8,
+    "body": "The perfume has an amazing fragrance that lasts all day.",
+    "postId": 13,
+    "user": {
+      "username": "fiona_evans",
+      "email": "fiona.evans@example.com",
+      "userid": 108
+    },
+    "natureOfComment": "positive"
+  },
+  {
+    "id": 9,
+    "body": "The hair dryer is very powerful and easy to use.",
+    "postId": 14,
+    "user": {
+      "username": "george_harris",
+      "email": "george.harris@example.com",
+      "userid": 109
+    },
+    "natureOfComment": "positive"
+  },
+  {
+    "id": 10,
+    "body": "The face cream is very hydrating and non-greasy.",
+    "postId": 16,
+    "user": {
+      "username": "hannah_lee",
+      "email": "hannah.lee@example.com",
+      "userid": 110
+    },
+    "natureOfComment": "positive"
+  },
+  {
+    "id": 11,
+    "body": "The smartphone is good, but it overheats sometimes.",
+    "postId": 5,
+    "user": {
+      "username": "ian_miller",
+      "email": "ian.miller@example.com",
+      "userid": 111
+    },
+    "natureOfComment": "mixed"
+  },
+  {
+    "id": 12,
+    "body": "The digital camera is too bulky and not user-friendly.",
+    "postId": 10,
+    "user": {
+      "username": "julia_roberts",
+      "email": "julia.roberts@example.com",
+      "userid": 112
+    },
+    "natureOfComment": "negative"
+  },
+  {
+    "id": 13,
+    "body": "The electric toothbrush stopped working after a month.",
+    "postId": 15,
+    "user": {
+      "username": "kevin_smith",
+      "email": "kevin.smith@example.com",
+      "userid": 113
+    },
+    "natureOfComment": "negative"
+  },
+  {
+    "id": 14,
+    "body": "The smartwatch is overpriced for the features it offers.",
+    "postId": 7,
+    "user": {
+      "username": "lisa_jones",
+      "email": "lisa.jones@example.com",
+      "userid": 114
+    },
+    "natureOfComment": "negative"
+  },
+  {
+    "id": 15,
+    "body": "The laptop is very slow and has a lot of bloatware.",
+    "postId": 8,
+    "user": {
+      "username": "michael_brown",
+      "email": "michael.brown@example.com",
+      "userid": 115
+    },
+    "natureOfComment": "negative"
+  },
+  {
+    "id": 16,
+    "body": "The lipstick color is beautiful, but it doesn't last long.",
+    "postId": 11,
+    "user": {
+      "username": "nina_williams",
+      "email": "nina.williams@example.com",
+      "userid": 116
+    },
+    "natureOfComment": "mixed"
+  },
+  {
+    "id": 17,
+    "body": "The foundation caused my skin to break out.",
+    "postId": 12,
+    "user": {
+      "username": "oliver_smith",
+      "email": "oliver.smith@example.com",
+      "userid": 117
+    },
+    "natureOfComment": "negative"
+  },
+  {
+    "id": 18,
+    "body": "The perfume smells great, but the scent fades quickly.",
+    "postId": 13,
+    "user": {
+      "username": "paula_johnson",
+      "email": "paula.johnson@example.com",
+      "userid": 118
+    },
+    "natureOfComment": "mixed"
+  },
+  {
+    "id": 19,
+    "body": "The hair dryer is too noisy and heavy.",
+    "postId": 14,
+    "user": {
+      "username": "quentin_taylor",
+      "email": "quentin.taylor@example.com",
+      "userid": 119
+    },
+    "natureOfComment": "negative"
+  },
+  {
+    "id": 20,
+    "body": "The face cream is very hydrating and perfect for dry skin.",
+    "postId": 16,
+    "user": {
+      "username": "rachel_green",
+      "email": "rachel.green@example.com",
+      "userid": 120
+    },
+    "natureOfComment": "positive"
+  },
+  {
+    "id": 21,
+    "body": "The shampoo smells amazing and leaves my hair feeling soft.",
+    "postId": 17,
+    "user": {
+      "username": "samuel_adams",
+      "email": "samuel.adams@example.com",
+      "userid": 121
+    },
+    "natureOfComment": "positive"
+  },
+  {
+    "id": 22,
+    "body": "The conditioner is too thick and makes my hair greasy.",
+    "postId": 18,
+    "user": {
+      "username": "tina_turner",
+      "email": "tina.turner@example.com",
+      "userid": 122
+    },
+    "natureOfComment": "negative"
+  },
+  {
+    "id": 23,
+    "body": "The smart TV has an excellent picture quality and easy-to-use interface.",
+    "postId": 19,
+    "user": {
+      "username": "ursula_kim",
+      "email": "ursula.kim@example.com",
+      "userid": 123
+    },
+    "natureOfComment": "positive"
+  },
+  {
+    "id": 24,
+    "body": "The gaming console is fantastic, but it gets very hot during use.",
+    "postId": 20,
+    "user": {
+      "username": "victor_lee",
+      "email": "victor.lee@example.com",
+      "userid": 124
+    },
+    "natureOfComment": "mixed"
+  },
+  {
+    "id": 25,
+    "body": "The electric toothbrush is very effective and has a long battery life.",
+    "postId": 15,
+    "user": {
+      "username": "wendy_williams",
+      "email": "wendy.williams@example.com",
+      "userid": 125
+    },
+    "natureOfComment": "positive"
+  },
+  [
+    {
+      "id": 26,
+      "body": "The face cream is lightweight and absorbs quickly.",
+      "postId": 16,
+      "user": {
+        "username": "rachel_green",
+        "email": "rachel.green@example.com",
+        "userid": 120
+      },
+      "natureOfComment": "positive"
+    },
+    {
+      "id": 27,
+      "body": "The shampoo leaves my hair feeling dry and brittle.",
+      "postId": 17,
+      "user": {
+        "username": "samuel_adams",
+        "email": "samuel.adams@example.com",
+        "userid": 121
+      },
+      "natureOfComment": "negative"
+    },
+    {
+      "id": 28,
+      "body": "The conditioner has a pleasant scent and makes my hair shiny.",
+      "postId": 18,
+      "user": {
+        "username": "tina_turner",
+        "email": "tina.turner@example.com",
+        "userid": 122
+      },
+      "natureOfComment": "positive"
+    },
+    {
+      "id": 29,
+      "body": "The smart TV's remote control is difficult to use.",
+      "postId": 19,
+      "user": {
+        "username": "ursula_kim",
+        "email": "ursula.kim@example.com",
+        "userid": 123
+      },
+      "natureOfComment": "negative"
+    },
+    {
+      "id": 30,
+      "body": "The gaming console has an impressive game library.",
+      "postId": 20,
+      "user": {
+        "username": "victor_lee",
+        "email": "victor.lee@example.com",
+        "userid": 124
+      },
+      "natureOfComment": "positive"
+    },
+    {
+      "id": 31,
+      "body": "The electric toothbrush is too noisy.",
+      "postId": 15,
+      "user": {
+        "username": "wendy_williams",
+        "email": "wendy.williams@example.com",
+        "userid": 125
+      },
+      "natureOfComment": "negative"
+    },
+    {
+      "id": 32,
+      "body": "The face cream has a strong fragrance that I don't like.",
+      "postId": 16,
+      "user": {
+        "username": "xander_young",
+        "email": "xander.young@example.com",
+        "userid": 126
+      },
+      "natureOfComment": "negative"
+    },
+    {
+      "id": 33,
+      "body": "The shampoo is great for daily use and smells wonderful.",
+      "postId": 17,
+      "user": {
+        "username": "yara_zane",
+        "email": "yara.zane@example.com",
+        "userid": 127
+      },
+      "natureOfComment": "positive"
+    },
+    {
+      "id": 34,
+      "body": "The conditioner is overpriced for the quality.",
+      "postId": 18,
+      "user": {
+        "username": "zachary_white",
+        "email": "zachary.white@example.com",
+        "userid": 128
+      },
+      "natureOfComment": "negative"
+    },
+    {
+      "id": 35,
+      "body": "The smart TV's sound quality is excellent.",
+      "postId": 19,
+      "user": {
+        "username": "amy_brown",
+        "email": "amy.brown@example.com",
+        "userid": 129
+      },
+      "natureOfComment": "positive"
+    }
+  ]
+]

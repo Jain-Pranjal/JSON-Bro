@@ -55,7 +55,7 @@ export async function getQuoteById(id: number): Promise<Quote | null> {
   
       return paginate(quotes, skip, limit); // General paginate function used here
     } catch (error) {
-      console.error('Error reading todos.json:', error);
+      console.error('Error reading quotes.json:', error);
       return {
         data: [],
         metadata: {
@@ -81,7 +81,7 @@ export async function getQuoteById(id: number): Promise<Quote | null> {
       const randomIndex = Math.floor(Math.random() * quotes.length);
       return quotes[randomIndex];
     } catch (error) {
-      console.error('Error reading todos.json:', error);
+      console.error('Error reading quotes.json:', error);
       return null;
     }
   }

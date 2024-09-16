@@ -6,6 +6,11 @@ html,body,:root {
   height: 100%;
 }
 
+::selection {
+  background-color: #cdcd2e;
+  color: black; /* Optional: change text color when selected */
+}
+
 
 @layer base {
   :root {

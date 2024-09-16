@@ -31,12 +31,40 @@ const nextConfig = {
           destination: '/api/products',
         },
         {
+          source: '/products/:id',
+          destination: '/api/products/:id',
+        },
+        {
           source: '/posts',
           destination: '/api/posts',
         },
         {
           source: '/posts/:id',
           destination: '/api/posts/:id',
+        },
+        {
+          source: '/carts',
+          destination: '/api/carts',
+        },
+        {
+          source: '/carts/:id',
+          destination: '/api/carts/:id',
+        },
+        {
+          source: '/recipies',
+          destination: '/api/recipies',
+        },
+        {
+          source: '/recipies/:id',
+          destination: '/api/recipies/:id',
+        },
+        {
+          source: '/comments',
+          destination: '/api/comments',
+        },
+        {
+          source: '/comments/:id',
+          destination: '/api/comments/:id',
         },
        
       ];
