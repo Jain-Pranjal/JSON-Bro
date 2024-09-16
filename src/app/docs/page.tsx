@@ -791,7 +791,7 @@
 
 'use client'
 
-import { useState, useRef } from 'react'
+import React, { useState, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Terminal, Menu, X, Copy, Check, Play } from 'lucide-react'
 import { Button } from "@/components/ui/button"
@@ -801,11 +801,11 @@ import type { Engine } from "tsparticles-engine"
 import Link from 'next/link'
 
 
-interface DocsProps {
-  content?: React.ReactNode
-}
+// interface DocsProps {
+//   content?: React.ReactNode
+// }
 
-export default function Docs({ content }: DocsProps){
+export default function Docs({ content }: { content: React.ReactNode }){
   const [menuOpen, setMenuOpen] = useState(false)
   const [copiedSnippets, setCopiedSnippets] = useState<{ [key: string]: boolean }>({})
   const [outputVisible, setOutputVisible] = useState<{ [key: string]: boolean }>({})
