@@ -800,12 +800,11 @@ import { loadSlim } from "tsparticles-slim"
 import type { Engine } from "tsparticles-engine"
 import Link from 'next/link'
 
+interface DocsProps {
+  content?: React.ReactNode;
+}
 
-// interface DocsProps {
-//   content?: React.ReactNode
-// }
-
-export default function Docs({ content }: { content: React.ReactNode }){
+const Docs: React.FC<DocsProps> = ({ content }) => {
   const [menuOpen, setMenuOpen] = useState(false)
   const [copiedSnippets, setCopiedSnippets] = useState<{ [key: string]: boolean }>({})
   const [outputVisible, setOutputVisible] = useState<{ [key: string]: boolean }>({})
@@ -1075,3 +1074,5 @@ console.log(data);`}
     </div>
   )
 }
+
+export default Docs
