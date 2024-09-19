@@ -7,9 +7,9 @@ import { Button } from "@/components/ui/button"
 export default function HeroSection() {
   const [copied, setCopied] = useState(false)
   const [text, setText] = useState('')
-  const fullText = "Fake JSON API for testing and prototyping"
+  const fullText = "  Fake JSON API for testing and prototyping"
 
-  const codeSnippet = `localhost:3000/users`
+  const codeSnippet = `https://json-bro.vercel.app/users`
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(codeSnippet)

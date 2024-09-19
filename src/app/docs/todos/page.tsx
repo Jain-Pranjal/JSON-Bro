@@ -105,7 +105,7 @@ export default function PostsPage() {
       <CodeSnippet 
         id="getAllTodos"
         title="Get all Todos"
-        code={`fetch('http://localhost:3000/todos')
+        code={`fetch('https://json-bro.vercel.app/todos')
   .then(res => res.json())
   .then(console.log);`}
         output={`{
@@ -142,7 +142,7 @@ export default function PostsPage() {
       <CodeSnippet 
         id="getTodoById"
         title="Get Todo by ID"
-        code={`fetch('http://localhost:3000/todos/19')
+        code={`fetch('https://json-bro.vercel.app/todos/19')
   .then(res => res.json())
   .then(console.log);`}
         output={`{
@@ -157,7 +157,7 @@ export default function PostsPage() {
       <CodeSnippet 
         id="getTodosWithLimitAndSkip"
         title="Get Todos with Limit and Skip"
-        code={`fetch('http://localhost:3000/todos?limit=2&skip=3')
+        code={`fetch('https://json-bro.vercel.app/todos?limit=2&skip=3')
   .then(res => res.json())
   .then(console.log);`}
         output={`{
@@ -188,7 +188,7 @@ export default function PostsPage() {
       <CodeSnippet 
         id="getRandomTodo"
         title="Random Todo"
-        code={`fetch('http://localhost:3000/todos/random')
+        code={`fetch('https://json-bro.vercel.app/todos/random')
   .then(res => res.json())
   .then(console.log);`}
         output={`{

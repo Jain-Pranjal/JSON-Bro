@@ -28,8 +28,8 @@ export async function GET(request: NextRequest) {
 
 
 
-// all products :- http://localhost:3000/products
-// single products :- http://localhost:3000/products/:id
-// limit products :- http://localhost:3000/products?limit=2
-// skip products :- http://localhost:3000/products?skip=2
-// limit and skip products :- http://localhost:3000/products?limit=2&skip=2
+// all products :- https://json-bro.vercel.app/products
+// single products :- https://json-bro.vercel.app/products/:id
+// limit products :- https://json-bro.vercel.app/products?limit=2
+// skip products :- https://json-bro.vercel.app/products?skip=2
+// limit and skip products :- https://json-bro.vercel.app/products?limit=2&skip=2

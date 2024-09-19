@@ -106,7 +106,7 @@ export default function PostsPage() {
       <CodeSnippet 
         id="getAllProducts"
         title="Get all Products Items"
-        code={`fetch('http://localhost:3000/products')
+        code={`fetch('https://json-bro.vercel.app/products')
   .then(res => res.json())
   .then(console.log);`}
         output={`{
@@ -234,7 +234,7 @@ export default function PostsPage() {
       <CodeSnippet 
         id="getProductById"
         title="Get Product by ID"
-        code={`fetch('http://localhost:3000/products/6')
+        code={`fetch('https://json-bro.vercel.app/products/6')
   .then(res => res.json())
   .then(console.log);`}
         output={`{
@@ -295,7 +295,7 @@ export default function PostsPage() {
       <CodeSnippet 
         id="getProductsWithLimitAndSkip"
         title="Get Products with Limit and Skip"
-        code={`fetch('http://localhost:3000/products?limit=2&skip=3')
+        code={`fetch('https://json-bro.vercel.app/products?limit=2&skip=3')
   .then(res => res.json())
   .then(console.log);`}
         output={`{
@@ -418,7 +418,7 @@ export default function PostsPage() {
       <CodeSnippet 
         id="getRandomProduct"
         title="Random Product"
-        code={`fetch('http://localhost:3000/products/random')
+        code={`fetch('https://json-bro.vercel.app/products/random')
   .then(res => res.json())
   .then(console.log);`}
         output={`{

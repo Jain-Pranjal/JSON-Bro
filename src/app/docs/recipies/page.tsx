@@ -106,7 +106,7 @@ export default function PostsPage() {
       <CodeSnippet 
         id="getAllRecipies"
         title="Get all Recipies Items"
-        code={`fetch('http://localhost:3000/recipies')
+        code={`fetch('https://json-bro.vercel.app/recipies')
   .then(res => res.json())
   .then(console.log);`}
         output={`{
@@ -219,7 +219,7 @@ export default function PostsPage() {
       <CodeSnippet 
         id="getRecipieById"
         title="Get Recipie by ID"
-        code={`fetch('http://localhost:3000/recipies/6')
+        code={`fetch('https://json-bro.vercel.app/recipies/6')
   .then(res => res.json())
   .then(console.log);`}
         output={`{
@@ -270,7 +270,7 @@ export default function PostsPage() {
       <CodeSnippet 
         id="getRecipiesWithLimitAndSkip"
         title="Get Recipies with Limit and Skip"
-        code={`fetch('http://localhost:3000/recipies?limit=2&skip=3')
+        code={`fetch('https://json-bro.vercel.app/recipies?limit=2&skip=3')
   .then(res => res.json())
   .then(console.log);`}
         output={`{
@@ -369,7 +369,7 @@ export default function PostsPage() {
       <CodeSnippet 
         id="getRandomRecipe"
         title="Random Recipe"
-        code={`fetch('http://localhost:3000/recipies/random')
+        code={`fetch('https://json-bro.vercel.app/recipies/random')
   .then(res => res.json())
   .then(console.log);`}
         output={`{

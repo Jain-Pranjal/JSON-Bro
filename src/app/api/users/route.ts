@@ -36,8 +36,8 @@ export async function GET(request: NextRequest) {
 
 
 
-// all users :- http://localhost:3000/users
-// single users :- http://localhost:3000/users/:id
-// limit users :- http://localhost:3000/users?limit=2
-// skip users :- http://localhost:3000/users?skip=2
-// limit and skip users :- http://localhost:3000/users?limit=2&skip=2
+// all users :- https://json-bro.vercel.app/users
+// single users :- https://json-bro.vercel.app/users/:id
+// limit users :- https://json-bro.vercel.app/users?limit=2
+// skip users :- https://json-bro.vercel.app/users?skip=2
+// limit and skip users :- https://json-bro.vercel.app/users?limit=2&skip=2

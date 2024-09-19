@@ -26,8 +26,8 @@ export async function GET(request: NextRequest) {
 
 
 
-// all recipies :- http://localhost:3000/recipies
-// single recipies :- http://localhost:3000/recipies/:id
-// limit recipies :- http://localhost:3000/recipies?limit=2
-// skip recipies :- http://localhost:3000/recipies?skip=2
-// limit and skip recipies :- http://localhost:3000/recipies?limit=2&skip=2
+// all recipies :- https://json-bro.vercel.app/recipies
+// single recipies :- https://json-bro.vercel.app/recipies/:id
+// limit recipies :- https://json-bro.vercel.app/recipies?limit=2
+// skip recipies :- https://json-bro.vercel.app/recipies?skip=2
+// limit and skip recipies :- https://json-bro.vercel.app/recipies?limit=2&skip=2

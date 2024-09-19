@@ -4,14 +4,14 @@ import React from 'react'
 
 
 const test=()=>{
-  fetch('http://localhost:3000/todos/random')
+  fetch('https://json-bro.vercel.app/todos/random')
   .then(res => res.json())
   .then(console.log);
 }
 
 
 // const test = () => {
-//   fetch('http://localhost:3000/todos')
+//   fetch('https://json-bro.vercel.app/todos')
 //     .then(res => {
 //       if (!res.ok) {
 //         throw new Error('Network response was not ok');

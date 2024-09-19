@@ -35,8 +35,8 @@ export async function GET(request: NextRequest) {
 
 // this is the api page that will give the resposne as it is the backend only that will give the respsne to the frontend
 
-// all todo :- http://localhost:3000/todos
-// single todo :- http://localhost:3000/todos/:id
-// limit todo :- http://localhost:3000/todos?limit=2
-// skip todo :- http://localhost:3000/todos?skip=2
-// limit and skip todo :- http://localhost:3000/todos?limit=2&skip=2
+// all todo :- https://json-bro.vercel.app/todos
+// single todo :- https://json-bro.vercel.app/todos/:id
+// limit todo :- https://json-bro.vercel.app/todos?limit=2
+// skip todo :- https://json-bro.vercel.app/todos?skip=2
+// limit and skip todo :- https://json-bro.vercel.app/todos?limit=2&skip=2

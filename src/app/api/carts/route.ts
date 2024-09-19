@@ -36,8 +36,8 @@ export async function GET(request: NextRequest) {
 
 
 
-// all carts :- http://localhost:3000/carts
-// single carts :- http://localhost:3000/carts/:id
-// limit carts :- http://localhost:3000/carts?limit=2
-// skip carts :- http://localhost:3000/carts?skip=2
-// limit and skip carts :- http://localhost:3000/carts?limit=2&skip=2
+// all carts :- https://json-bro.vercel.app/carts
+// single carts :- https://json-bro.vercel.app/carts/:id
+// limit carts :- https://json-bro.vercel.app/carts?limit=2
+// skip carts :- https://json-bro.vercel.app/carts?skip=2
+// limit and skip carts :- https://json-bro.vercel.app/carts?limit=2&skip=2

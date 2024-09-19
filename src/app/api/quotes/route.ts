@@ -28,8 +28,8 @@ export async function GET(request: NextRequest) {
 
 
 
-// all quotes :- http://localhost:3000/quotes
-// single quotes :- http://localhost:3000/quotes/:id
-// limit quotes :- http://localhost:3000/quotes?limit=2
-// skip quotes :- http://localhost:3000/quotes?skip=2
-// limit and skip quotes :- http://localhost:3000/quotes?limit=2&skip=2
+// all quotes :- https://json-bro.vercel.app/quotes
+// single quotes :- https://json-bro.vercel.app/quotes/:id
+// limit quotes :- https://json-bro.vercel.app/quotes?limit=2
+// skip quotes :- https://json-bro.vercel.app/quotes?skip=2
+// limit and skip quotes :- https://json-bro.vercel.app/quotes?limit=2&skip=2

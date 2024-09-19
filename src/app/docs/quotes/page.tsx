@@ -106,7 +106,7 @@ export default function PostsPage() {
       <CodeSnippet 
         id="getAllQuotes"
         title="Get all Quotes"
-        code={`fetch('http://localhost:3000/quotes')
+        code={`fetch('https://json-bro.vercel.app/quotes')
   .then(res => res.json())
   .then(console.log);`}
         output={`{
@@ -148,7 +148,7 @@ export default function PostsPage() {
       <CodeSnippet 
         id="getQuoteById"
         title="Get Quote by ID"
-        code={`fetch('http://localhost:3000/quotes/19')
+        code={`fetch('https://json-bro.vercel.app/quotes/19')
   .then(res => res.json())
   .then(console.log);`}
         output={`{
@@ -166,7 +166,7 @@ export default function PostsPage() {
       <CodeSnippet 
         id="getQuotesWithLimitAndSkip"
         title="Get Quotes with Limit and Skip"
-        code={`fetch('http://localhost:3000/quotes?limit=2&skip=3')
+        code={`fetch('https://json-bro.vercel.app/quotes?limit=2&skip=3')
   .then(res => res.json())
   .then(console.log);`}
         output={`{
@@ -203,7 +203,7 @@ export default function PostsPage() {
       <CodeSnippet 
         id="getRandomQuote"
         title="Random Quote"
-        code={`fetch('http://localhost:3000/quotes/random')
+        code={`fetch('https://json-bro.vercel.app/quotes/random')
   .then(res => res.json())
   .then(console.log);`}
         output={`{

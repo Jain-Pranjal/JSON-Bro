@@ -37,8 +37,8 @@ export async function GET(request: NextRequest) {
 
 
 
-// all posts :- http://localhost:3000/posts
-// single posts :- http://localhost:3000/posts/:id
-// limit posts :- http://localhost:3000/posts?limit=2
-// skip posts :- http://localhost:3000/posts?skip=2
-// limit and skip posts :- http://localhost:3000/posts?limit=2&skip=2
+// all posts :- https://json-bro.vercel.app/posts
+// single posts :- https://json-bro.vercel.app/posts/:id
+// limit posts :- https://json-bro.vercel.app/posts?limit=2
+// skip posts :- https://json-bro.vercel.app/posts?skip=2
+// limit and skip posts :- https://json-bro.vercel.app/posts?limit=2&skip=2

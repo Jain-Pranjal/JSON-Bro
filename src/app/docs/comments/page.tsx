@@ -106,7 +106,7 @@ export default function PostsPage() {
       <CodeSnippet 
         id="getAllComments"
         title="Get all Comments Items"
-        code={`fetch('http://localhost:3000/comments')
+        code={`fetch('https://json-bro.vercel.app/comments')
   .then(res => res.json())
   .then(console.log);`}
         output={`{
@@ -150,7 +150,7 @@ export default function PostsPage() {
       <CodeSnippet 
         id="getCommentById"
         title="Get Comment by ID"
-        code={`fetch('http://localhost:3000/comments/6')
+        code={`fetch('https://json-bro.vercel.app/comments/6')
   .then(res => res.json())
   .then(console.log);`}
         output={`{
@@ -169,7 +169,7 @@ export default function PostsPage() {
       <CodeSnippet 
         id="getCommentsWithLimitAndSkip"
         title="Get Comments with Limit and Skip"
-        code={`fetch('http://localhost:3000/comments?limit=2&skip=3')
+        code={`fetch('https://json-bro.vercel.app/comments?limit=2&skip=3')
   .then(res => res.json())
   .then(console.log);`}
         output={`{
@@ -208,7 +208,7 @@ export default function PostsPage() {
       <CodeSnippet 
         id="getRandomComment"
         title="Random Comment"
-        code={`fetch('http://localhost:3000/comments/random')
+        code={`fetch('https://json-bro.vercel.app/comments/random')
   .then(res => res.json())
   .then(console.log);`}
         output={`{

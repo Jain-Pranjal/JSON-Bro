@@ -445,7 +445,7 @@ export default function PostsPage() {
       <CodeSnippet 
         id="getAllPosts"
         title="Get all Posts"
-        code={`fetch('http://localhost:3000/posts')
+        code={`fetch('https://json-bro.vercel.app/posts')
   .then(res => res.json())
   .then(console.log);`}
         output={`{
@@ -495,7 +495,7 @@ export default function PostsPage() {
       <CodeSnippet 
         id="getPostById"
         title="Get Post by ID"
-        code={`fetch('http://localhost:3000/posts/5')
+        code={`fetch('https://json-bro.vercel.app/posts/5')
   .then(res => res.json())
   .then(console.log);`}
         output={`{
@@ -530,7 +530,7 @@ export default function PostsPage() {
       <CodeSnippet 
         id="getPostsWithLimitAndSkip"
         title="Get Posts with Limit and Skip"
-        code={`fetch('http://localhost:3000/posts?limit=2&skip=3')
+        code={`fetch('https://json-bro.vercel.app/posts?limit=2&skip=3')
   .then(res => res.json())
   .then(console.log);`}
         output={`{
@@ -601,7 +601,7 @@ export default function PostsPage() {
       <CodeSnippet 
         id="getRandomPost"
         title="Random Post"
-        code={`fetch('http://localhost:3000/posts/random')
+        code={`fetch('https://json-bro.vercel.app/posts/random')
   .then(res => res.json())
   .then(console.log);`}
         output={`{
