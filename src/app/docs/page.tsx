@@ -1,4 +1,3 @@
-
 /**
  in the documentation i need to make the docu of the api route 
   /todos
@@ -14,9 +13,6 @@
 
  */
 
-
-   
-   
 // "use client";
 // import React from 'react'
 // import axios from 'axios'
@@ -26,18 +22,15 @@
 // import hljs from 'highlight.js/lib/core';
 // import javascript from 'highlight.js/lib/languages/javascript';
 // import typescript from 'highlight.js/lib/languages/typescript';
-// import 'highlight.js/styles/default.css'; 
+// import 'highlight.js/styles/default.css';
 
 // hljs.registerLanguage('javascript', javascript);
-// hljs.registerLanguage('typescript', typescript); 
-
+// hljs.registerLanguage('typescript', typescript);
 
 // const highlightedCode = hljs.highlight(
 //   '<span>Hello World!</span>',
 //   { language: 'javascript' }
 // ).value
-
-
 
 // // ab jaise ke mene apne api ka filder hata dia hai to vo bas ab nirmal foldfr par data ko fetch karega na ke aapke api folder se
 // const getTodos=async()=>{
@@ -46,18 +39,14 @@
 //     return res.data;
 // }
 
-
-
 // const page = () => {
 
 //     const [fetchData, setFetchData] = useState(false);
 //     const { data, error, isLoading } = useQuery({queryKey: ['allTodos'], queryFn: getTodos,staleTime: 5000,enabled:fetchData});
 
-
 //     const handleFetchProducts = () => {
 //         setFetchData(true);
 //         }
-
 
 // const codeSnippet = `
 // // Your JavaScript code snippet here
@@ -66,12 +55,10 @@
 // }
 // `;
 
-
 //   return (
 //     <div className=' h-full '>
 //       INSTRCUTUON ON HOW TO USE THE REST API <br />
 
-    
 //     <Button onClick={handleFetchProducts}>Get Todos</Button>
 //     {isLoading && <p>Loading...</p>}
 //     {error && <p>Error: {error.message}</p>}
@@ -86,22 +73,6 @@
 // }
 
 // export default page
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // ----------------------------
 
@@ -199,8 +170,7 @@
 //     )
 //   }
 
-
-//   // side menu 
+//   // side menu
 //   const sections = [
 //     {
 //       title: 'Getting Started',
@@ -209,16 +179,16 @@
 //           <h2 className="text-2xl font-bold mb-4">Getting Started with JSON Bro</h2>
 //           <p className="mb-4">JSON Bro can be used with any type of front end project that needs products, carts, users, todos or any dummy data in JSON format.
 //           You can use examples below to check how JSON Bro works. </p>
-//           <CodeSnippet 
-//             id="install" 
-//             code="npm install json-bro" 
+//           <CodeSnippet
+//             id="install"
+//             code="npm install json-bro"
 //             output="+ json-bro@1.0.0
 // added 1 package, and audited 1 package in 2s
-// found 0 vulnerabilities" 
+// found 0 vulnerabilities"
 //           />
 //           <p className="mt-4 mb-4">Then, import and use it in your code:</p>
-//           <CodeSnippet 
-//             id="usage" 
+//           <CodeSnippet
+//             id="usage"
 //             code={`import jsonBro from 'json-bro';
 
 // const data = jsonBro.parse('{"name": "JSON Bro", "awesome": true}');
@@ -226,7 +196,7 @@
 //             output={`{
 //   name: 'JSON Bro',
 //   awesome: true
-// }`} 
+// }`}
 //           />
 //         </>
 //       )
@@ -240,8 +210,8 @@
 //             <h3 className="text-xl font-bold mb-4">Parse JSON</h3>
 //             <p className="mb-4">Use the parse method to convert a JSON string to a JavaScript object:</p>
 //             <h2 className='text-2xl'>Get all Posts</h2>
-//             <CodeSnippet 
-//               id="posts" 
+//             <CodeSnippet
+//               id="posts"
 //               code={`fetch('localhost:3000/posts')
 // .then(res => res.json())
 // .then(console.log);
@@ -272,7 +242,7 @@
 //       "date": "2023-09-12T10:00:00Z"
 //     }
 //   ]
-// }`} 
+// }`}
 //             />
 //           </>
 //         ),
@@ -280,12 +250,12 @@
 //           <>
 //             <h3 className="text-xl font-bold mb-4">Stringify JavaScript Object</h3>
 //             <p className="mb-4">Use the stringify method to convert a JavaScript object to a JSON string:</p>
-//             <CodeSnippet 
-//               id="stringify" 
+//             <CodeSnippet
+//               id="stringify"
 //               code={`const data = { name: "JSON Bro", awesome: true };
 // const jsonString = jsonBro.stringify(data);
 // console.log(jsonString); // Output: {"name":"JSON Bro","awesome":true}`}
-//               output='{"name":"JSON Bro","awesome":true}' 
+//               output='{"name":"JSON Bro","awesome":true}'
 //             />
 //           </>
 //         ),
@@ -293,15 +263,15 @@
 //           <>
 //             <h3 className="text-xl font-bold mb-4">Validate JSON</h3>
 //             <p className="mb-4">Use the validate method to check if a string is valid JSON:</p>
-//             <CodeSnippet 
-//               id="validate" 
+//             <CodeSnippet
+//               id="validate"
 //               code={`const validJson = '{"name": "JSON Bro"}';
 // const invalidJson = '{name: JSON Bro}';
 
 // console.log(jsonBro.validate(validJson));
 // console.log(jsonBro.validate(invalidJson));`}
 //               output={`true
-// false`} 
+// false`}
 //             />
 //           </>
 //         )
@@ -309,8 +279,6 @@
 //     }
 //   ]
 
-
-  
 //   return (
 //     <div className="min-h-screen bg-black text-green-400 font-mono flex flex-col">
 //       <Particles id="tsparticles" init={particlesInit} options={particlesConfig} className="absolute inset-0" />
@@ -334,9 +302,6 @@
 //           {menuOpen ? <X /> : <Menu />}
 //         </Button>
 //       </nav>
-
-
-
 
 // {/* Mobile view menu */}
 //       <div className="flex-grow flex">
@@ -398,8 +363,6 @@
 
 // {/* Mobile view menu  end */}
 
-
-
 // {/* Side menu */}
 //         <aside className="bg-gray-900 w-64 p-4 border-r border-green-400 overflow-y-auto hidden md:block z-20">
 //           <h2 className="text-xl font-bold mb-4">Documentation</h2>
@@ -431,7 +394,6 @@
 //           </ul>
 //         </aside>
 
-
 //         <main className="flex-grow p-8 overflow-y-auto relative z-10">
 //           <motion.div
 //             key={activeSection}
@@ -439,7 +401,7 @@
 //             animate={{ opacity: 1, y: 0 }}
 //             transition={{ duration: 0.3 }}
 //           >
-//             {sections.find(s => s.title === activeSection)?.content || 
+//             {sections.find(s => s.title === activeSection)?.content ||
 //              (sections.find(s => s.subsections?.includes(activeSection))?.content as any)[activeSection]}
 //           </motion.div>
 //         </main>
@@ -447,29 +409,6 @@
 //     </div>
 //   )
 // }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // ----------------------------------------------------------------
 // 'use client'
@@ -482,7 +421,6 @@
 // import { loadSlim } from "tsparticles-slim"
 // import type { Engine } from "tsparticles-engine"
 // import Link from 'next/link'
-
 
 // export default function Docs({ content }: { content?: React.ReactNode }) {
 //   const [menuOpen, setMenuOpen] = useState(false)
@@ -513,7 +451,6 @@
 //       <span className="absolute left-0 bottom-0 w-full h-0.5 bg-green-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
 //     </Link>
 //   )
-
 
 //   // making the code snippet
 //   const CodeSnippet = ({ id, code, output }: { id: string, code: string, output: string }) => {
@@ -551,7 +488,6 @@
 //           </Button>
 //         </div>
 
-
 //         <AnimatePresence>
 //           {outputVisible[id] && (
 //             <motion.div
@@ -569,9 +505,6 @@
 //       </div>
 //     )
 //   }
-
-
-
 
 //   const sections = [
 //     { title: 'Getting Started', href: '/docs' },
@@ -591,7 +524,7 @@
 //     // large screen
 //     <div className="min-h-screen bg-black text-green-400 font-mono flex flex-col">
 //       <Particles id="tsparticles" init={particlesInit} options={particlesConfig} className="absolute inset-0" />
-      
+
 //       <nav className="relative z-20 flex justify-between items-center p-4 border-b border-green-400 ">
 //         <div className="text-2xl font-bold flex items-center">
 //           <Terminal className="mr-2" />
@@ -614,10 +547,6 @@
 //       </nav>
 
 //       <div className="flex-grow flex">
-
-        
-
-
 
 // {/* mobile view side bar menu */}
 // <AnimatePresence>
@@ -701,9 +630,6 @@
 //   )}
 // </AnimatePresence>
 
-
-
-
 //         {/* desktop view side menu bar  */}
 //         <aside className="bg-gray-900 w-64 p-4 border-r border-green-400 overflow-y-auto hidden md:block z-20 sticky top-0 h-screen">
 //           <h2 className="text-xl font-bold mb-4">Documentation</h2>
@@ -735,7 +661,6 @@
 //           </ul>
 //         </aside>
 
-
 //             {/* main content */}
 //         <main className="flex-grow p-8 overflow-y-auto relative z-10">
 //           <motion.div
@@ -748,16 +673,16 @@
 //                 <h2 className="text-2xl font-bold mb-4">Getting Started with JSON Bro</h2>
 //                 <p className="mb-4">JSON Bro can be used with any type of frontend project that needs products, carts, users, todos or any dummy data in JSON format.
 //                 You can use examples below to check how JSON Bro works. </p>
-//                 <CodeSnippet 
-//                   id="install" 
-//                   code="npm install json-bro" 
+//                 <CodeSnippet
+//                   id="install"
+//                   code="npm install json-bro"
 //                   output="+ json-bro@1.0.0
 // added 1 package, and audited 1 package in 2s
-// found 0 vulnerabilities" 
+// found 0 vulnerabilities"
 //                 />
 //                 <p className="mt-4 mb-4">Then, import and use it in your code:</p>
-//                 <CodeSnippet 
-//                   id="usage" 
+//                 <CodeSnippet
+//                   id="usage"
 //                   code={`import jsonBro from 'json-bro';
 
 // const data = jsonBro.parse('{"name": "JSON Bro", "awesome": true}');
@@ -765,7 +690,7 @@
 //                   output={`{
 //   name: 'JSON Bro',
 //   awesome: true
-// }`} 
+// }`}
 //                 />
 //               </>
 //             )}
@@ -776,76 +701,75 @@
 //   )
 // }
 
-
-
-
-// yeah upar vala he humara latest he hai 
-
-
-
-
-
-
+// yeah upar vala he humara latest he hai
 
 // this code is generated for resolving the ssticky and the scroll issue
 
-'use client'
+"use client";
 
-import React, { useState, useRef } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
-import { Terminal, Menu, X, Copy, Check, Play } from 'lucide-react'
-import { Button } from "@/components/ui/button"
-import Particles from "react-tsparticles"
-import { loadSlim } from "tsparticles-slim"
-import type { Engine } from "tsparticles-engine"
-import Link from 'next/link'
+import React, { useState, useRef } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { Terminal, Menu, X, Copy, Check, Play } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import Particles from "react-tsparticles";
+import { loadSlim } from "tsparticles-slim";
+import type { Engine } from "tsparticles-engine";
+import Link from "next/link";
 
-interface DocsProps {
-  content?: React.ReactNode;
-}
+// interface DocsProps {
+//   content?: React.ReactNode
+// }
 
-const Docs: React.FC<DocsProps> = ({ content }) => {
-  const [menuOpen, setMenuOpen] = useState(false)
-  const [copiedSnippets, setCopiedSnippets] = useState<{ [key: string]: boolean }>({})
-  const [outputVisible, setOutputVisible] = useState<{ [key: string]: boolean }>({})
-  const mainContentRef = useRef<HTMLDivElement>(null)
+export default function Docs({ content }: any) { // eslint-disable-line @typescript-eslint/no-explicit-any
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [copiedSnippets, setCopiedSnippets] = useState<{
+    [key: string]: boolean;
+  }>({});
+  const [outputVisible, setOutputVisible] = useState<{
+    [key: string]: boolean;
+  }>({});
+  const mainContentRef = useRef<HTMLDivElement>(null);
 
   const particlesInit = async (engine: Engine) => {
-    await loadSlim(engine)
-  }
+    await loadSlim(engine);
+  };
 
-  const particlesConfig = {
-    particles: {
-      color: { value: "#00ff00" },
-      move: { direction: "none", enable: true, outModes: { default: "bounce" }, random: false, speed: 1, straight: false },
-      number: { density: { enable: true, area: 800 }, value: 80 },
-      opacity: { value: 0.5 },
-      shape: { type: "circle" },
-      size: { value: { min: 1, max: 3 } },
-    },
-    background: {
-      color: "#000000"
-    }
-  }
 
-  const NavLink = ({ href, children }: { href: string, children: React.ReactNode }) => (
+  const NavLink = ({
+    href,
+    children,
+  }: {
+    href: string;
+    children: React.ReactNode;
+  }) => (
     <Link href={href} className="relative group inline-block">
       {children}
       <span className="absolute left-0 bottom-0 w-full h-0.5 bg-green-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
     </Link>
-  )
+  );
 
-  const CodeSnippet = ({ id, code, output }: { id: string, code: string, output: string }) => {
+  const CodeSnippet = ({
+    id,
+    code,
+    output,
+  }: {
+    id: string;
+    code: string;
+    output: string;
+  }) => {
     const copyToClipboard = () => {
-      navigator.clipboard.writeText(code)
-      setCopiedSnippets(prev => ({ ...prev, [id]: true }))
-      setTimeout(() => setCopiedSnippets(prev => ({ ...prev, [id]: false })), 2000)
-    }
+      navigator.clipboard.writeText(code);
+      setCopiedSnippets((prev) => ({ ...prev, [id]: true }));
+      setTimeout(
+        () => setCopiedSnippets((prev) => ({ ...prev, [id]: false })),
+        2000
+      );
+    };
 
     const toggleOutput = (event: React.MouseEvent) => {
-      event.preventDefault()
-      setOutputVisible(prev => ({ ...prev, [id]: !prev[id] }))
-    }
+      event.preventDefault();
+      setOutputVisible((prev) => ({ ...prev, [id]: !prev[id] }));
+    };
 
     return (
       <div className="relative mb-4">
@@ -859,7 +783,11 @@ const Docs: React.FC<DocsProps> = ({ content }) => {
             className="border-green-400 hover:bg-green-400 text-black font-bold text-xs"
             onClick={copyToClipboard}
           >
-            {copiedSnippets[id] ? <Check className="h-3 w-3" /> : <Copy className="h-3 w-3" />}
+            {copiedSnippets[id] ? (
+              <Check className="h-3 w-3" />
+            ) : (
+              <Copy className="h-3 w-3" />
+            )}
           </Button>
           <Button
             variant="outline"
@@ -875,7 +803,7 @@ const Docs: React.FC<DocsProps> = ({ content }) => {
           {outputVisible[id] && (
             <motion.div
               initial={{ opacity: 0, height: 0 }}
-              animate={{ opacity: 1, height: 'auto' }}
+              animate={{ opacity: 1, height: "auto" }}
               exit={{ opacity: 0, height: 0 }}
               transition={{ duration: 0.3 }}
             >
@@ -886,27 +814,47 @@ const Docs: React.FC<DocsProps> = ({ content }) => {
           )}
         </AnimatePresence>
       </div>
-    )
-  }
+    );
+  };
 
   const sections = [
-    { title: 'Getting Started', href: '/docs' },
-    { title: 'API Reference', subsections: [
-      { title: '> Posts', href: '/docs/posts' },
-      { title: '> Todos', href: '/docs/todos' },
-      { title: '> Quotes', href: '/docs/quotes' },
-      { title: '> Users', href: '/docs/users' },
-      { title: '> Carts', href: '/docs/carts' },
-      { title: '> Comments', href: '/docs/comments' },
-      { title: '> Recipies', href: '/docs/recipies' },
-      { title: '> Products', href: '/docs/products' },
-    ]},
-  ]
+    { title: "Getting Started", href: "/docs" },
+    {
+      title: "API Reference",
+      subsections: [
+        { title: "> Posts", href: "/docs/posts" },
+        { title: "> Todos", href: "/docs/todos" },
+        { title: "> Quotes", href: "/docs/quotes" },
+        { title: "> Users", href: "/docs/users" },
+        { title: "> Carts", href: "/docs/carts" },
+        { title: "> Comments", href: "/docs/comments" },
+        { title: "> Recipies", href: "/docs/recipies" },
+        { title: "> Products", href: "/docs/products" },
+      ],
+    },
+  ];
 
   return (
     <div className="min-h-screen bg-black text-green-400 font-mono flex flex-col">
-      <Particles id="tsparticles" init={particlesInit} options={particlesConfig} className="absolute inset-0" />
-      
+      <Particles
+        id="tsparticles"
+        init={particlesInit}
+        options={{
+          particles: {
+            color: { value: "#00ff00" },
+            move: { direction: "none", enable: true, outModes: { default: "bounce" }, random: false, speed: 1, straight: false },
+            number: { density: { enable: true, area: 800 }, value: 100 },
+            opacity: { value: 0.5 },
+            shape: { type:"circle" },
+            size: { value: { min: 1, max: 3 } },
+          },
+          background: {
+            color: "#000000"
+          }
+        }}
+        className="absolute inset-0"
+      />
+
       <nav className="sticky top-0 z-50 flex justify-between items-center p-4 border-b border-green-400 bg-black">
         <div className="text-2xl font-bold flex items-center">
           <Terminal className="mr-2" />
@@ -932,10 +880,10 @@ const Docs: React.FC<DocsProps> = ({ content }) => {
         <AnimatePresence>
           {menuOpen && (
             <motion.aside
-              initial={{ x: '-100%' }}
+              initial={{ x: "-100%" }}
               animate={{ x: 0 }}
-              exit={{ x: '-100%' }}
-              transition={{ type: 'tween', duration: 0.3 }}
+              exit={{ x: "-100%" }}
+              transition={{ type: "tween", duration: 0.3 }}
               className="bg-gray-900 w-64 p-4 border-r border-green-400 overflow-y-auto fixed top-0 left-0 h-full z-40 md:hidden"
             >
               <div className="flex justify-end mb-4">
@@ -953,12 +901,17 @@ const Docs: React.FC<DocsProps> = ({ content }) => {
                 {sections.map((section) => (
                   <li key={section.title} className="mb-2">
                     {section.href ? (
-                      <Link href={section.href} className="w-full text-left py-2 px-4 rounded hover:bg-gray-800 block">
+                      <Link
+                        href={section.href}
+                        className="w-full text-left py-2 px-4 rounded hover:bg-gray-800 block"
+                      >
                         {section.title}
                       </Link>
                     ) : (
                       <>
-                        <div className="w-full text-left py-2 px-4 rounded font-bold">{section.title}</div>
+                        <div className="w-full text-left py-2 px-4 rounded font-bold">
+                          {section.title}
+                        </div>
                         {section.subsections && (
                           <ul className="ml-4 mt-2">
                             {section.subsections.map((subsection) => (
@@ -981,22 +934,34 @@ const Docs: React.FC<DocsProps> = ({ content }) => {
               <div className="absolute bottom-4 left-0 w-full px-4">
                 <ul className="flex flex-col space-y-2">
                   <li>
-                    <Link href="/" className="text-left py-1 px-4 rounded hover:bg-gray-800 block">
+                    <Link
+                      href="/"
+                      className="text-left py-1 px-4 rounded hover:bg-gray-800 block"
+                    >
                       Home
                     </Link>
                   </li>
                   <li>
-                    <Link href="/docs" className="text-left py-1 px-4 rounded hover:bg-gray-800 block">
+                    <Link
+                      href="/docs"
+                      className="text-left py-1 px-4 rounded hover:bg-gray-800 block"
+                    >
                       Docs
                     </Link>
                   </li>
                   <li>
-                    <Link href="/about" className="text-left py-1 px-4 rounded hover:bg-gray-800 block">
+                    <Link
+                      href="/about"
+                      className="text-left py-1 px-4 rounded hover:bg-gray-800 block"
+                    >
                       About
                     </Link>
                   </li>
                   <li>
-                    <Link href="/contact" className="text-left py-1 px-4 rounded hover:bg-gray-800 block">
+                    <Link
+                      href="/contact"
+                      className="text-left py-1 px-4 rounded hover:bg-gray-800 block"
+                    >
                       Contact
                     </Link>
                   </li>
@@ -1012,17 +977,25 @@ const Docs: React.FC<DocsProps> = ({ content }) => {
             {sections.map((section) => (
               <li key={section.title} className="mb-2">
                 {section.href ? (
-                  <Link href={section.href} className="w-full text-left py-2 px-4 rounded hover:bg-gray-800 block">
+                  <Link
+                    href={section.href}
+                    className="w-full text-left py-2 px-4 rounded hover:bg-gray-800 block"
+                  >
                     {section.title}
                   </Link>
                 ) : (
                   <>
-                    <div className="w-full text-left py-2 px-4 rounded font-bold">{section.title}</div>
+                    <div className="w-full text-left py-2 px-4 rounded font-bold">
+                      {section.title}
+                    </div>
                     {section.subsections && (
                       <ul className="ml-4 mt-2">
                         {section.subsections.map((subsection) => (
                           <li key={subsection.title}>
-                            <Link href={subsection.href} className="w-full text-left py-1 px-4 rounded hover:bg-gray-800 block">
+                            <Link
+                              href={subsection.href}
+                              className="w-full text-left py-1 px-4 rounded hover:bg-gray-800 block"
+                            >
                               {subsection.title}
                             </Link>
                           </li>
@@ -1036,7 +1009,10 @@ const Docs: React.FC<DocsProps> = ({ content }) => {
           </ul>
         </aside>
 
-        <main ref={mainContentRef} className="flex-grow p-8 overflow-y-auto relative z-20 h-[calc(100vh-57px)]">
+        <main
+          ref={mainContentRef}
+          className="flex-grow p-8 overflow-y-auto relative z-20 h-[calc(100vh-57px)]"
+        >
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -1044,19 +1020,27 @@ const Docs: React.FC<DocsProps> = ({ content }) => {
           >
             {content || (
               <>
-                <h2 className="text-2xl font-bold mb-4">Getting Started with JSON Bro</h2>
-                <p className="mb-4">JSON Bro can be used with any type of frontend project that needs products, carts, users, todos or any dummy data in JSON format.
-                You can use examples below to check how JSON Bro works. </p>
-                <CodeSnippet 
-                  id="install" 
-                  code="npm install json-bro" 
+                <h2 className="text-2xl font-bold mb-4">
+                  Getting Started with JSON Bro
+                </h2>
+                <p className="mb-4">
+                  JSON Bro can be used with any type of frontend project that
+                  needs products, carts, users, todos or any dummy data in JSON
+                  format. You can use examples below to check how JSON Bro
+                  works.{" "}
+                </p>
+                <CodeSnippet
+                  id="install"
+                  code="npm install json-bro"
                   output="+ json-bro@1.0.0
 added 1 package, and audited 1 package in 2s
-found 0 vulnerabilities" 
+found 0 vulnerabilities"
                 />
-                <p className="mt-4 mb-4">Then, import and use it in your code:</p>
-                <CodeSnippet 
-                  id="usage" 
+                <p className="mt-4 mb-4">
+                  Then, import and use it in your code:
+                </p>
+                <CodeSnippet
+                  id="usage"
                   code={`import jsonBro from 'json-bro';
 
 const data = jsonBro.parse('{"name": "JSON Bro", "awesome": true}');
@@ -1064,7 +1048,7 @@ console.log(data);`}
                   output={`{
   name: 'JSON Bro',
   awesome: true
-}`} 
+}`}
                 />
               </>
             )}
@@ -1072,7 +1056,5 @@ console.log(data);`}
         </main>
       </div>
     </div>
-  )
+  );
 }
-
-export default Docs

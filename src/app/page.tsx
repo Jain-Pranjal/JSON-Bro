@@ -1,4 +1,4 @@
-// this is the main content of the page that was originally contained all thinggs 
+// this is the main content of the page that was originally contained all thinggs
 // 'use client'
 
 // import { useState, useEffect } from 'react'
@@ -119,10 +119,9 @@
 //         )}
 //       </AnimatePresence>
 
-
 //       <main className="relative z-10 flex-grow flex flex-col md:flex-row items-center justify-center p-4 gap-8">
 //         <div className="md:w-1/2 space-y-4">
-//           <motion.h1 
+//           <motion.h1
 //             className="text-4xl md:text-6xl font-bold mb-4"
 //             initial={{ opacity: 0, y: -50 }}
 //             animate={{ opacity: 1, y: 0 }}
@@ -140,7 +139,7 @@
 //             <span className="inline-block min-h-[1.5em]">{text}</span>
 //           </motion.div>
 //         </div>
-//         <motion.div 
+//         <motion.div
 //           className="md:w-1/2 bg-gray-900 p-4 rounded-lg shadow-lg w-full border border-green-400"
 //           initial={{ opacity: 0, scale: 0.9 }}
 //           animate={{ opacity: 1, scale: 1 }}
@@ -174,18 +173,17 @@
 //         </motion.div>
 //       </main>
 
-
 // {/* Features section */}
-//       <motion.section 
+//       <motion.section
 //         className="relative z-10 py-12 px-4"
 //         initial={{ opacity: 0, y: 50 }}
 //         animate={{ opacity: 1, y: 0 }}
 //         transition={{ duration: 0.5, delay: 0.6 }}>
-        
+
 //         <h2 className="text-3xl font-bold mb-8 text-center">Features</h2>
 //         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 font-sans">
 //           {['Parse JSON', 'Format JSON', 'Validate JSON', 'Convert JSON to other formats', 'JSON Schema validation', 'JSON Diff'].map((feature, index) => (
-//             <motion.div 
+//             <motion.div
 //               key={index}
 //               className="bg-gray-900 p-6 rounded-lg border border-green-400"
 //               initial={{ opacity: 0, y: 20 }}
@@ -198,8 +196,6 @@
 //           ))}
 //         </div>
 //       </motion.section>
-
-
 
 //       {/* footer */}
 //       <footer className="relative z-10 bg-gray-900 text-green-400 py-8 px-4 border-t border-green-400">
@@ -223,44 +219,47 @@
 //   )
 // }
 
-
-
-
 // app/page.tsx
-'use client'
+"use client";
 
-import Navbar from "@/components/Navbar"
-import HeroSection from "@/components/HeroSection"
-import Footer from "@/components/Footer"
-import Particles from "react-tsparticles"
-import { loadSlim } from "tsparticles-slim"
-import type { Engine } from "tsparticles-engine"
+import Navbar from "@/components/Navbar";
+import HeroSection from "@/components/HeroSection";
+import Footer from "@/components/Footer";
+import Particles from "react-tsparticles";
+import { loadSlim } from "tsparticles-slim";
+import type { Engine } from "tsparticles-engine";
 
 export default function CoverPage() {
   const particlesInit = async (engine: Engine) => {
-    await loadSlim(engine)
-  }
+    await loadSlim(engine);
+  };
 
-  const particlesConfig = {
-    particles: {
-      color: { value: "#00ff00" },
-      move: { direction: "none", enable: true, outModes: { default: "bounce" }, random: false, speed: 1, straight: false },
-      number: { density: { enable: true, area: 800 }, value: 100 },
-      opacity: { value: 0.5 },
-      shape: { type:"circle" },
-      size: { value: { min: 1, max: 3 } },
-    },
-    background: {
-      color: "#000000"
-    }
-  }
+  
 
   return (
     <div className="min-h-screen bg-black text-green-400 font-mono flex flex-col">
-      <Particles id="tsparticles" init={particlesInit} options={particlesConfig} className="absolute inset-0" />
+      <Particles
+        id="tsparticles"
+        init={particlesInit}
+        options={ {
+          particles: {
+            color: { value: "#00ff00" },
+            move: { direction: "none", enable: true, outModes: { default: "bounce" }, random: false, speed: 1, straight: false },
+            number: { density: { enable: true, area: 800 }, value: 100 },
+            opacity: { value: 0.5 },
+            shape: { type:"circle" },
+            size: { value: { min: 1, max: 3 } },
+          },
+          background: {
+            color: "#000000"
+          }
+        }
+      }
+        className="absolute inset-0"
+      />
       <Navbar />
       <HeroSection />
       <Footer />
     </div>
-  )
+  );
 }
