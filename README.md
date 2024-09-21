@@ -1,8 +1,3 @@
-JSON Bro is a web application designed to help users manage and interact with JSON data efficiently. The application provides a user-friendly interface for viewing, editing, and organizing JSON data, making it an essential tool for developers and data analysts.
-
-
-# todo 
-- need to make the custom api resposne that user can use like 
-- genertate https://mocki.io/
-
-at present i dont have the https protocal so i will use the http protocal for the api response
+# JSON-Bro
+JSON Bro is a powerful and user-friendly fake JSON API designed for testing and prototyping.
+It offers developers tools to streamline their workflow and boost productivity.
