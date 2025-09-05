@@ -5,8 +5,30 @@ import { Terminal, Menu, X } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import Link from 'next/link'
 
+interface NavLinkProps {
+  href: string
+  children: React.ReactNode
+  onClick?: () => void
+}
+
+function NavLink({ href, children, onClick }: NavLinkProps) {
+  return (
+    <Link href={href} className="relative group inline-block" onClick={onClick}>
+      {children}
+      <span className="absolute left-0 bottom-0 w-full h-0.5 bg-green-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
+    </Link>
+  )
+}
+
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
+
+  const navItems = [
+    { href: '/', label: 'Home' },
+    { href: '/docs', label: 'Docs' },
+    { href: '/about', label: 'About' },
+    { href: '/contact', label: 'Contact' }
+  ]
 
   return (
     <>
@@ -16,22 +38,11 @@ export default function Navbar() {
           JSON Bro
         </div>
         <div className="hidden md:flex space-x-8">
-          <Link href="/" className="relative group inline-block">
-            Home
-            <span className="absolute left-0 bottom-0 w-full h-0.5 bg-green-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
-          </Link>
-          <Link href="/docs" className="relative group inline-block">
-            Docs
-            <span className="absolute left-0 bottom-0 w-full h-0.5 bg-green-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
-          </Link>
-          <Link href="/about" className="relative group inline-block">
-            About
-            <span className="absolute left-0 bottom-0 w-full h-0.5 bg-green-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
-          </Link>
-          <Link href="/contact" className="relative group inline-block">
-            Contact
-            <span className="absolute left-0 bottom-0 w-full h-0.5 bg-green-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
-          </Link>
+          {navItems.map((item) => (
+            <NavLink key={item.href} href={item.href}>
+              {item.label}
+            </NavLink>
+          ))}
         </div>
         <Button
           variant="outline"
@@ -63,22 +74,11 @@ export default function Navbar() {
               </Button>
             </div>
             <div className="flex flex-col items-start space-y-4">
-              <Link href="/" className="relative group inline-block" onClick={() => setMenuOpen(false)}>
-                Home
-                <span className="absolute left-0 bottom-0 w-full h-0.5 bg-green-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
-              </Link>
-              <Link href="/docs" className="relative group inline-block" onClick={() => setMenuOpen(false)}>
-                Docs
-                <span className="absolute left-0 bottom-0 w-full h-0.5 bg-green-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
-              </Link>
-              <Link href="/about" className="relative group inline-block" onClick={() => setMenuOpen(false)}>
-                About
-                <span className="absolute left-0 bottom-0 w-full h-0.5 bg-green-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
-              </Link>
-              <Link href="/contact" className="relative group inline-block" onClick={() => setMenuOpen(false)}>
-                Contact
-                <span className="absolute left-0 bottom-0 w-full h-0.5 bg-green-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
-              </Link>
+              {navItems.map((item) => (
+                <NavLink key={item.href} href={item.href} onClick={() => setMenuOpen(false)}>
+                  {item.label}
+                </NavLink>
+              ))}
             </div>
           </motion.div>
         )}
