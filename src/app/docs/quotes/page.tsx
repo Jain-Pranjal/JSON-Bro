@@ -1,18 +1,27 @@
-
-
 'use client'
 
-import { useState, useEffect, useRef } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
-import { Copy, Check, Play, Link as LinkIcon } from 'lucide-react'
+import { useState, useEffect, useRef } from "react"
+import { motion, AnimatePresence } from "framer-motion"
+import { Copy, Check, Play, Link as LinkIcon } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import dynamic from 'next/dynamic'
+import dynamic from "next/dynamic"
+import { Metadata } from "next"
 
-const DynamicDocs = dynamic(() => import('../page'), { ssr: false })
+export const metadata: Metadata = {
+  title: "Quotes API",
+  description:
+    "Documentation for the Quotes API endpoint of JSON Bro, including example requests and responses.",
+}
 
-export default function PostsPage() {
-  const [copiedSnippets, setCopiedSnippets] = useState<{ [key: string]: boolean }>({})
-  const [outputVisible, setOutputVisible] = useState<{ [key: string]: boolean }>({})
+const DynamicDocs = dynamic(() => import("../page"), { ssr: false })
+
+export default function QuotesPage() {
+  const [copiedSnippets, setCopiedSnippets] = useState<{
+    [key: string]: boolean
+  }>({})
+  const [outputVisible, setOutputVisible] = useState<{
+    [key: string]: boolean
+  }>({})
   const [isClient, setIsClient] = useState(false)
 
   useEffect(() => {
@@ -20,32 +29,53 @@ export default function PostsPage() {
   }, [])
 
   const copyToClipboard = (id: string, code: string) => {
-    if (typeof navigator !== 'undefined') {
+    if (typeof navigator !== "undefined") {
       navigator.clipboard.writeText(code)
-      setCopiedSnippets(prev => ({ ...prev, [id]: true }))
-      setTimeout(() => setCopiedSnippets(prev => ({ ...prev, [id]: false })), 2000)
+      setCopiedSnippets((prev) => ({ ...prev, [id]: true }))
+      setTimeout(
+        () => setCopiedSnippets((prev) => ({ ...prev, [id]: false })),
+        2000
+      )
     }
   }
 
   const toggleOutput = (id: string, event: React.MouseEvent) => {
     event.preventDefault()
-    setOutputVisible(prev => ({ ...prev, [id]: !prev[id] }))
+    setOutputVisible((prev) => ({ ...prev, [id]: !prev[id] }))
   }
 
-  const CodeSnippet = ({ id, title, code, output }: { id: string, title: string, code: string, output: string }) => {
+  const CodeSnippet = ({
+    id,
+    title,
+    code,
+    output,
+  }: {
+    id: string
+    title: string
+    code: string
+    output: string
+  }) => {
     const headingRef = useRef<HTMLHeadingElement>(null)
     const outputRef = useRef<HTMLDivElement>(null)
 
     const scrollToHeading = (event: React.MouseEvent) => {
       event.preventDefault()
-      headingRef.current?.scrollIntoView({ behavior: 'smooth' })
+      headingRef.current?.scrollIntoView({ behavior: "smooth" })
     }
 
     return (
       <>
-        <h2 ref={headingRef} id={id} className='text-2xl mt-8 mb-4 flex items-center group'>
+        <h2
+          ref={headingRef}
+          id={id}
+          className="text-2xl mt-8 mb-4 flex items-center group"
+        >
           {title}
-          <a href={`#${id}`} onClick={scrollToHeading} className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity">
+          <a
+            href={`#${id}`}
+            onClick={scrollToHeading}
+            className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity"
+          >
             <LinkIcon className="h-5 w-5 text-green-400" />
           </a>
         </h2>
@@ -60,7 +90,11 @@ export default function PostsPage() {
               className="border-green-400 hover:bg-green-400 text-black font-bold text-xs"
               onClick={() => copyToClipboard(id, code)}
             >
-              {copiedSnippets[id] ? <Check className="h-3 w-3" /> : <Copy className="h-3 w-3" />}
+              {copiedSnippets[id] ? (
+                <Check className="h-3 w-3" />
+              ) : (
+                <Copy className="h-3 w-3" />
+              )}
             </Button>
             <Button
               variant="outline"
@@ -81,12 +115,14 @@ export default function PostsPage() {
                 animate="open"
                 exit="collapsed"
                 variants={{
-                  open: { opacity: 1, height: 'auto' },
-                  collapsed: { opacity: 0, height: 0 }
+                  open: { opacity: 1, height: "auto" },
+                  collapsed: { opacity: 0, height: 0 },
                 }}
                 transition={{ duration: 0.3, ease: [0.04, 0.62, 0.23, 0.98] }}
               >
-                <h3 className="text-xl font-bold mt-4 mb-2">Example Response</h3>
+                <h3 className="text-xl font-bold mt-4 mb-2">
+                  Example Response
+                </h3>
                 <pre className="bg-gray-800 p-4 rounded-lg text-green-400 overflow-x-auto overflow-y-auto max-h-[300px] text-xs sm:text-sm md:text-base">
                   <code>{output}</code>
                 </pre>
@@ -101,9 +137,11 @@ export default function PostsPage() {
   const content = (
     <>
       <h3 className="text-4xl font-bold mb-4">Quotes API</h3>
-      <p className="mb-4">Use the quotes API endpoint to get dummy quote data:</p>
+      <p className="mb-4">
+        Use the quotes API endpoint to get dummy quote data:
+      </p>
 
-      <CodeSnippet 
+      <CodeSnippet
         id="getAllQuotes"
         title="Get all Quotes"
         code={`fetch('https://json-bro.vercel.app/quotes')
@@ -145,7 +183,7 @@ export default function PostsPage() {
   }`}
       />
 
-      <CodeSnippet 
+      <CodeSnippet
         id="getQuoteById"
         title="Get Quote by ID"
         code={`fetch('https://json-bro.vercel.app/quotes/19')
@@ -163,7 +201,7 @@ export default function PostsPage() {
 }`}
       />
 
-      <CodeSnippet 
+      <CodeSnippet
         id="getQuotesWithLimitAndSkip"
         title="Get Quotes with Limit and Skip"
         code={`fetch('https://json-bro.vercel.app/quotes?limit=2&skip=3')
@@ -200,7 +238,7 @@ export default function PostsPage() {
 }`}
       />
 
-      <CodeSnippet 
+      <CodeSnippet
         id="getRandomQuote"
         title="Random Quote"
         code={`fetch('https://json-bro.vercel.app/quotes/random')
@@ -217,10 +255,8 @@ export default function PostsPage() {
   ]
 }`}
       />
-
     </>
   )
 
   return isClient ? <DynamicDocs content={content} /> : null
 }
-

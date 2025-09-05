@@ -7,7 +7,13 @@ import { loadSlim } from "tsparticles-slim"
 import type { Engine } from "tsparticles-engine"
 import { motion } from "framer-motion"
 import { Code, Zap, Globe, Users } from "lucide-react"
+import { Metadata } from 'next'
 
+export const metadata: Metadata = {
+    title: 'About',
+    description:
+        'Learn more about JSON Bro and how it can help you with your development process.',
+}
 export default function AboutPage() {
   const particlesInit = async (engine: Engine) => {
     await loadSlim(engine)

@@ -1,5 +1,3 @@
-
-
 'use client'
 
 import { useState, useEffect, useRef } from 'react'
@@ -7,10 +5,16 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { Copy, Check, Play, Link as LinkIcon } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import dynamic from 'next/dynamic'
+import { Metadata } from 'next'
 
+export const metadata: Metadata = {
+    title: 'Comments API',
+    description:
+        'Documentation for the Comments API endpoint of JSON Bro, including example requests and responses.',
+}
 const DynamicDocs = dynamic(() => import('../page'), { ssr: false })
 
-export default function PostsPage() {
+export default function CommentsPage() {
   const [copiedSnippets, setCopiedSnippets] = useState<{ [key: string]: boolean }>({})
   const [outputVisible, setOutputVisible] = useState<{ [key: string]: boolean }>({})
   const [isClient, setIsClient] = useState(false)

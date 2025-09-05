@@ -3,10 +3,17 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import Navbar from "@/components/Navbar"; // Include the Navbar component
+import Navbar from "@/components/Navbar"; 
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 import type { Engine } from "tsparticles-engine";
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Contact Us',
+    description:
+        'Get in touch with the JSON Bro team for any inquiries or support.',
+}
 
 const particlesInit = async (engine: Engine) => {
   await loadSlim(engine);
