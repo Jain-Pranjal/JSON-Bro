@@ -1,7 +1,12 @@
 {
   "name": "jsonbro",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jain-Pranjal/JSON-Bro"
+  },
+  "author": "Pranjal Jain <pranjalworkon@gmail.com>",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
