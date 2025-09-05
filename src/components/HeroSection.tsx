@@ -9,7 +9,7 @@ export default function HeroSection() {
   const [text, setText] = useState('')
   const fullText = "  Fake JSON API for testing and prototyping"
 
-  const codeSnippet = `https://json-bro.vercel.app/users`
+  const codeSnippet = `curl https://json-bro.vercel.app/posts`
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(codeSnippet)
@@ -30,6 +30,33 @@ export default function HeroSection() {
 
     return () => clearInterval(typingEffect)
   }, [])
+
+  const features = [
+    {
+      title: 'Fake API Response',
+      description: 'Get realistic JSON responses without setting up a backend server'
+    },
+    {
+      title: 'Perfect for Testing and Prototyping',
+      description: 'Ideal for frontend development, testing, and rapid prototyping'
+    },
+    {
+      title: 'Free to Use',
+      description: 'Completely free service with no API limits or registration required'
+    },
+    {
+      title: 'Supports Various Endpoints',
+      description: 'Access users, posts, comments, and other common data endpoints'
+    },
+    {
+      title: 'Rich JSON Response',
+      description: 'Well-structured and comprehensive JSON data for your applications'
+    },
+    {
+      title: 'Fast and Reliable',
+      description: 'High-performance API with consistent uptime and quick response times'
+    }
+  ]
 
   return (
     <>
@@ -95,7 +122,7 @@ export default function HeroSection() {
       >
         <h2 className="text-3xl font-bold mb-8 text-center">Features</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 font-sans">
-          {['Parse JSON', 'Format JSON', 'Validate JSON', 'Convert JSON to other formats', 'JSON Schema validation', 'JSON Diff'].map((feature, index) => (
+          {features.map((feature, index) => (
             <motion.div 
               key={index}
               className="bg-gray-900 p-6 rounded-lg border border-green-400"
@@ -103,8 +130,8 @@ export default function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.8 + index * 0.1 }}
             >
-              <h3 className="text-xl font-semibold mb-2">{feature}</h3>
-              <p className="text-gray-400">Description of the feature</p>
+              <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
+              <p className="text-gray-400">{feature.description}</p>
             </motion.div>
           ))}
         </div>

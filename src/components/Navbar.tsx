@@ -1,19 +1,34 @@
-
 "use client"
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Terminal, Menu, X } from 'lucide-react'
 import { Button } from "@/components/ui/button"
+import Link from 'next/link'
+
+interface NavLinkProps {
+  href: string
+  children: React.ReactNode
+  onClick?: () => void
+}
+
+function NavLink({ href, children, onClick }: NavLinkProps) {
+  return (
+    <Link href={href} className="relative group inline-block" onClick={onClick}>
+      {children}
+      <span className="absolute left-0 bottom-0 w-full h-0.5 bg-green-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
+    </Link>
+  )
+}
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
 
-  const NavLink = ({ href, children, onClick }: { href: string, children: React.ReactNode, onClick?: () => void }) => (
-    <a href={href} className="relative group inline-block" onClick={onClick}>
-      {children}
-      <span className="absolute left-0 bottom-0 w-full h-0.5 bg-green-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
-    </a>
-  )
+  const navItems = [
+    { href: '/', label: 'Home' },
+    { href: '/docs', label: 'Docs' },
+    { href: '/about', label: 'About' },
+    { href: '/contact', label: 'Contact' }
+  ]
 
   return (
     <>
@@ -23,10 +38,11 @@ export default function Navbar() {
           JSON Bro
         </div>
         <div className="hidden md:flex space-x-8">
-          <NavLink href="/">Home</NavLink>
-          <NavLink href="/docs">Docs</NavLink>
-          <NavLink href="/about">About</NavLink>
-          <NavLink href="/contact">Contact</NavLink>
+          {navItems.map((item) => (
+            <NavLink key={item.href} href={item.href}>
+              {item.label}
+            </NavLink>
+          ))}
         </div>
         <Button
           variant="outline"
@@ -58,10 +74,11 @@ export default function Navbar() {
               </Button>
             </div>
             <div className="flex flex-col items-start space-y-4">
-              <NavLink href="/" onClick={() => setMenuOpen(false)}>Home</NavLink>
-              <NavLink href="/docs" onClick={() => setMenuOpen(false)}>Docs</NavLink>
-              <NavLink href="/about" onClick={() => setMenuOpen(false)}>About</NavLink>
-              <NavLink href="/contact" onClick={() => setMenuOpen(false)}>Contact</NavLink>
+              {navItems.map((item) => (
+                <NavLink key={item.href} href={item.href} onClick={() => setMenuOpen(false)}>
+                  {item.label}
+                </NavLink>
+              ))}
             </div>
           </motion.div>
         )}
