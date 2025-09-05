@@ -3,7 +3,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-// import { Terminal } from 'lucide-react'
 import Navbar from "@/components/Navbar"; // Include the Navbar component
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
@@ -14,6 +13,7 @@ const particlesInit = async (engine: Engine) => {
 };
 
 
+const getCurrentYear = () => new Date().getFullYear()
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -178,7 +178,7 @@ export default function Contact() {
         <footer className="relative z-10 bg-gray-900 text-green-400 py-8 px-4 border-t border-green-400 text-center">
           <div className="container mx-auto">
             <p className="text-sm font-sans">
-              © 2024 JSON Bro. All rights reserved.
+              © {getCurrentYear()} JSON Bro. All rights reserved.
             </p>
           </div>
         </footer>

@@ -1,19 +1,12 @@
-
 "use client"
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Terminal, Menu, X } from 'lucide-react'
 import { Button } from "@/components/ui/button"
+import Link from 'next/link'
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
-
-  const NavLink = ({ href, children, onClick }: { href: string, children: React.ReactNode, onClick?: () => void }) => (
-    <a href={href} className="relative group inline-block" onClick={onClick}>
-      {children}
-      <span className="absolute left-0 bottom-0 w-full h-0.5 bg-green-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
-    </a>
-  )
 
   return (
     <>
@@ -23,10 +16,22 @@ export default function Navbar() {
           JSON Bro
         </div>
         <div className="hidden md:flex space-x-8">
-          <NavLink href="/">Home</NavLink>
-          <NavLink href="/docs">Docs</NavLink>
-          <NavLink href="/about">About</NavLink>
-          <NavLink href="/contact">Contact</NavLink>
+          <Link href="/" className="relative group inline-block">
+            Home
+            <span className="absolute left-0 bottom-0 w-full h-0.5 bg-green-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
+          </Link>
+          <Link href="/docs" className="relative group inline-block">
+            Docs
+            <span className="absolute left-0 bottom-0 w-full h-0.5 bg-green-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
+          </Link>
+          <Link href="/about" className="relative group inline-block">
+            About
+            <span className="absolute left-0 bottom-0 w-full h-0.5 bg-green-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
+          </Link>
+          <Link href="/contact" className="relative group inline-block">
+            Contact
+            <span className="absolute left-0 bottom-0 w-full h-0.5 bg-green-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
+          </Link>
         </div>
         <Button
           variant="outline"
@@ -58,10 +63,22 @@ export default function Navbar() {
               </Button>
             </div>
             <div className="flex flex-col items-start space-y-4">
-              <NavLink href="/" onClick={() => setMenuOpen(false)}>Home</NavLink>
-              <NavLink href="/docs" onClick={() => setMenuOpen(false)}>Docs</NavLink>
-              <NavLink href="/about" onClick={() => setMenuOpen(false)}>About</NavLink>
-              <NavLink href="/contact" onClick={() => setMenuOpen(false)}>Contact</NavLink>
+              <Link href="/" className="relative group inline-block" onClick={() => setMenuOpen(false)}>
+                Home
+                <span className="absolute left-0 bottom-0 w-full h-0.5 bg-green-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
+              </Link>
+              <Link href="/docs" className="relative group inline-block" onClick={() => setMenuOpen(false)}>
+                Docs
+                <span className="absolute left-0 bottom-0 w-full h-0.5 bg-green-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
+              </Link>
+              <Link href="/about" className="relative group inline-block" onClick={() => setMenuOpen(false)}>
+                About
+                <span className="absolute left-0 bottom-0 w-full h-0.5 bg-green-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
+              </Link>
+              <Link href="/contact" className="relative group inline-block" onClick={() => setMenuOpen(false)}>
+                Contact
+                <span className="absolute left-0 bottom-0 w-full h-0.5 bg-green-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
+              </Link>
             </div>
           </motion.div>
         )}
