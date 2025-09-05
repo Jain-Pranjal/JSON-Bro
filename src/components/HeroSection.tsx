@@ -9,7 +9,7 @@ export default function HeroSection() {
   const [text, setText] = useState('')
   const fullText = "  Fake JSON API for testing and prototyping"
 
-  const codeSnippet = `https://json-bro.vercel.app/users`
+  const codeSnippet = `curl https://json-bro.vercel.app/posts`
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(codeSnippet)
