@@ -103,7 +103,7 @@ export default function AboutPage() {
               complex backend setups.
             </p>
             <p className="mb-6">
-              Whether you're prototyping a new feature, testing API
+              Whether you&apos;re prototyping a new feature, testing API
               integrations, or demonstrating concepts to stakeholders, JSON-Bro
               offers a quick and reliable way to generate mock data for common
               use cases like users, posts, products, todos, and more.
