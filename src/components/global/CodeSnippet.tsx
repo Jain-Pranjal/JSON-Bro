@@ -1,3 +1,4 @@
+'use client'
 import { useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Copy, Check, Play, Link as LinkIcon } from 'lucide-react'
@@ -44,6 +45,8 @@ export default function CodeSnippet({
                     href={`#${id}`}
                     onClick={scrollToHeading}
                     className="ml-2 opacity-0 transition-opacity group-hover:opacity-100"
+                    aria-label={`Link to section ${title}`}
+                    title={`Link to section ${title}`}
                 >
                     <LinkIcon className="h-5 w-5 text-green-400" />
                 </a>
@@ -58,6 +61,8 @@ export default function CodeSnippet({
                         size="sm"
                         className="border-green-400 text-xs font-bold text-black hover:bg-green-400"
                         onClick={() => onCopy(id, code)}
+                        aria-label="Copy code"
+                        title="Copy code"
                     >
                         {copiedSnippets[id] ? (
                             <Check className="h-3 w-3" />
@@ -69,6 +74,8 @@ export default function CodeSnippet({
                         variant="outline"
                         size="sm"
                         className="border-green-400 text-xs font-bold text-black hover:bg-green-400"
+                        aria-label="Toggle example output"
+                        title="Toggle example output"
                         onClick={(e) => {
                             e.preventDefault()
                             onToggleOutput(id)

@@ -6,9 +6,14 @@ export function cn(...inputs: ClassValue[]) {
     return twMerge(clsx(inputs))
 }
 
-export function copyToClipboard(code: string) {
-    if (typeof navigator !== 'undefined') {
-        navigator.clipboard.writeText(code)
+export async function copyToClipboard(code: string): Promise<boolean> {
+    if (typeof navigator === 'undefined' || !navigator.clipboard?.writeText)
+        return false
+    try {
+        await navigator.clipboard.writeText(code)
+        return true
+    } catch {
+        return false
     }
 }
 

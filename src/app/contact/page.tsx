@@ -178,7 +178,8 @@ export default function Contact() {
                                 type="submit"
                                 variant="outline"
                                 size="lg"
-                                className="border-green-400 text-black hover:bg-green-400"
+                                disabled={formStatus === 'Submitting...'}
+                                className="border-green-400 text-green-400 hover:bg-green-400 hover:text-black disabled:cursor-not-allowed disabled:opacity-50"
                             >
                                 Send Message
                             </Button>

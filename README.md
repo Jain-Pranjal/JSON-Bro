@@ -10,8 +10,6 @@ A powerful and user-friendly fake JSON API designed for testing and prototyping.
 - **Free & Unlimited**: No registration or rate limits
 - **Modern UI**: Clean web interface with documentation pages
 
-
-
 ### API Endpoints
 
 Base URL: `https://json-bro.vercel.app/api` (or `http://localhost:3000/api` locally)
@@ -48,8 +46,8 @@ Base URL: `https://json-bro.vercel.app/api` (or `http://localhost:3000/api` loca
 
 #### Recipes
 
-- `GET /recipies` - Get all recipes
-- `GET /recipies/:id` - Get recipe by ID
+- `GET /recipes` - Get all recipes
+- `GET /recipes/:id` - Get recipe by ID
 
 #### Carts
 
@@ -62,7 +60,6 @@ Base URL: `https://json-bro.vercel.app/api` (or `http://localhost:3000/api` loca
 - `skip`: Number of items to skip (default: 0)
 
 Example: `GET /api/posts?limit=5&skip=10`
-
 
 ## Tech Stack
 
