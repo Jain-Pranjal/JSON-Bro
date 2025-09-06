@@ -2,12 +2,14 @@
 
 import React, { useState, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Terminal, Menu, X, Copy, Check, Play } from 'lucide-react'
+import { Terminal, Menu, X } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import Particles from 'react-tsparticles'
 import { loadSlim } from 'tsparticles-slim'
 import type { Engine } from 'tsparticles-engine'
 import Link from 'next/link'
+import CodeSnippet from '@/components/global/CodeSnippet'
+import { copyToClipboard } from '@/lib/utils'
 
 // interface DocsProps {
 //   content?: React.ReactNode
@@ -41,75 +43,6 @@ export default function Docs({ content }: any) {
         </Link>
     )
 
-    const CodeSnippet = ({
-        id,
-        code,
-        output,
-    }: {
-        id: string
-        code: string
-        output: string
-    }) => {
-        const copyToClipboard = () => {
-            navigator.clipboard.writeText(code)
-            setCopiedSnippets((prev) => ({ ...prev, [id]: true }))
-            setTimeout(
-                () => setCopiedSnippets((prev) => ({ ...prev, [id]: false })),
-                2000
-            )
-        }
-
-        const toggleOutput = (event: React.MouseEvent) => {
-            event.preventDefault()
-            setOutputVisible((prev) => ({ ...prev, [id]: !prev[id] }))
-        }
-
-        return (
-            <div className="relative mb-4">
-                <pre className="overflow-x-auto rounded-lg bg-gray-900 p-4 pt-12 text-blue-300">
-                    <code>{code}</code>
-                </pre>
-                <div className="absolute right-2 top-2 flex space-x-2">
-                    <Button
-                        variant="outline"
-                        size="sm"
-                        className="border-green-400 text-xs font-bold text-black hover:bg-green-400"
-                        onClick={copyToClipboard}
-                    >
-                        {copiedSnippets[id] ? (
-                            <Check className="h-3 w-3" />
-                        ) : (
-                            <Copy className="h-3 w-3" />
-                        )}
-                    </Button>
-                    <Button
-                        variant="outline"
-                        size="sm"
-                        className="border-green-400 text-xs font-bold text-black hover:bg-green-400"
-                        onClick={toggleOutput}
-                    >
-                        <Play className="h-3 w-3" />
-                    </Button>
-                </div>
-
-                <AnimatePresence>
-                    {outputVisible[id] && (
-                        <motion.div
-                            initial={{ opacity: 0, height: 0 }}
-                            animate={{ opacity: 1, height: 'auto' }}
-                            exit={{ opacity: 0, height: 0 }}
-                            transition={{ duration: 0.3 }}
-                        >
-                            <pre className="mt-2 overflow-x-auto rounded-lg bg-gray-800 p-4 text-green-400">
-                                <code>{output}</code>
-                            </pre>
-                        </motion.div>
-                    )}
-                </AnimatePresence>
-            </div>
-        )
-    }
-
     const sections = [
         { title: 'Getting Started', href: '/docs' },
         {
@@ -126,6 +59,20 @@ export default function Docs({ content }: any) {
             ],
         },
     ]
+
+    const handleCopy = async (id: string, code: string) => {
+        const ok = await copyToClipboard(code)
+        if (!ok) return
+        setCopiedSnippets((prev) => ({ ...prev, [id]: true }))
+        setTimeout(
+            () => setCopiedSnippets((prev) => ({ ...prev, [id]: false })),
+            2000
+        )
+    }
+
+    const handleToggleOutput = (id: string) => {
+        setOutputVisible((prev) => ({ ...prev, [id]: !prev[id] }))
+    }
 
     return (
         <div className="flex min-h-screen flex-col bg-black font-mono text-green-400">
@@ -367,6 +314,7 @@ export default function Docs({ content }: any) {
 
                                 <CodeSnippet
                                     id="posts-example"
+                                    title="Posts"
                                     code={`fetch('https://jsonbro.com/posts')
                 .then(response => response.json())
                 .then(data => console.log(data));`}
@@ -385,10 +333,15 @@ export default function Docs({ content }: any) {
                       "userId": 2
                     }
                   ]`}
+                                    copiedSnippets={copiedSnippets}
+                                    outputVisible={outputVisible}
+                                    onCopy={handleCopy}
+                                    onToggleOutput={handleToggleOutput}
                                 />
 
                                 <CodeSnippet
                                     id="todos-example"
+                                    title="Todos"
                                     code={`fetch('https://jsonbro.com/todos')
                 .then(response => response.json())
                 .then(data => console.log(data));`}
@@ -406,10 +359,19 @@ export default function Docs({ content }: any) {
                   "userId": 2
                 }
               ]`}
+                                    copiedSnippets={copiedSnippets}
+                                    outputVisible={outputVisible}
+                                    onCopy={handleCopy}
+                                    onToggleOutput={handleToggleOutput}
                                 />
 
                                 <CodeSnippet
                                     id="products-example"
+                                    title="Products"
+                                    copiedSnippets={copiedSnippets}
+                                    onCopy={handleCopy}
+                                    outputVisible={outputVisible}
+                                    onToggleOutput={handleToggleOutput}
                                     code={`fetch('https://jsonbro.com/products')
                 .then(response => response.json())
                 .then(data => console.log(data));`}
