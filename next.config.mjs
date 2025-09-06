@@ -51,12 +51,12 @@ const nextConfig = {
           destination: '/api/carts/:id',
         },
         {
-          source: '/recipies',
-          destination: '/api/recipies',
+          source: '/recipes',
+          destination: '/api/recipes',
         },
         {
-          source: '/recipies/:id',
-          destination: '/api/recipies/:id',
+          source: '/recipes/:id',
+          destination: '/api/recipes/:id',
         },
         {
           source: '/comments',
