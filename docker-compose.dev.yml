@@ -1,0 +1,19 @@
+# This is the development docker-compose file
+
+version: '3.8'
+services:
+    json-bro:
+        build: .
+        ports:
+            - '3000:3000'
+        volumes:
+            - .:/app
+            - /app/node_modules
+        environment:
+            - NODE_ENV=development
+        env_file:
+            - .env.local
+        restart: unless-stopped
+        command: pnpm dev
+# As this is the dev docker file so it will override the command to run the dev server with hot reloading
+

@@ -1,0 +1,15 @@
+# this is the production docker-compose file
+
+version: '3.8'
+services:
+    json-bro:
+        build: .
+        ports:
+            - '3000:3000'
+        environment:
+            - NODE_ENV=production
+        env_file:
+            - .env.production
+        restart: unless-stopped
+        command: pnpm start
+# it will make the image and tune run the prod ready container
