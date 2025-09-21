@@ -4,7 +4,6 @@ RUN npm install -g pnpm
 
 # this will be the working directory for all the following commands
 WORKDIR /app 
-# now we are inside the /app directory
 
 # Copy package.json and pnpm-lock.yaml
 COPY package.json pnpm-lock.yaml ./
@@ -28,6 +27,9 @@ WORKDIR /app
 
 # Copy package.json and pnpm-lock.yaml
 COPY package.json pnpm-lock.yaml ./
+
+# Set NODE_ENV to production so prepare script is skipped if it checks for production
+ENV NODE_ENV=production
 
 # Install only production dependencies
 RUN pnpm install --frozen-lockfile --prod

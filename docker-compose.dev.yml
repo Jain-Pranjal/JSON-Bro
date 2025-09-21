@@ -17,3 +17,4 @@ services:
         command: pnpm dev
 # As this is the dev docker file so it will override the command to run the dev server with hot reloading
 
+# the command that is used here will override the command in the Dockerfile so it will run in the dev server only
