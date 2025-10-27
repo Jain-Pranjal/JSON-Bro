@@ -91,13 +91,13 @@ export default function Navbar() {
                         </div>
 
                         <Link
-                            href="https://peerlist.io/json-bro"
+                            href="https://peerlist.io/pranjaljain/project/jsonbro"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
                             <div className="mt-8 flex justify-center">
                                 <Image
-                                    src="/peerlistLaunch.png"
+                                    src="/launch-badge-peerlist.svg"
                                     alt="Peerlist"
                                     width={150}
                                     height={150}

@@ -90,13 +90,13 @@ export default function HeroSection() {
                         </span>
 
                         <Link
-                            href="https://peerlist.io/json-bro"
+                            href="https://peerlist.io/pranjaljain/project/jsonbro"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="hidden md:block"
                         >
                             <Image
-                                src="/peerlistLaunch.png"
+                                src="/launch-badge-peerlist.svg"
                                 alt="Peerlist"
                                 width={250}
                                 height={250}
